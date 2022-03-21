@@ -32,7 +32,9 @@ const Faq = () => {
                         <h2>{item.question}</h2>
                         <button style={{transform: "2s ease"}} onClick={() => toggle(i)} className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
                     </div>
-
+                    <div className='contents'>
+                        <div className={selected == i ? 'content.show' : 'content'}>{item.answer}</div>
+                    </div>
                 </div>
             ))}
         </div>

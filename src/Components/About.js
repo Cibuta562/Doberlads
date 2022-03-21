@@ -30,11 +30,9 @@ const About = () => {
                 </div>
             </div>
         </div>
-            <NavLink style={{ textDecoration: 'none' }} className='headerItems' to="/mint">
-                <button className='mintButton1'>
+            <button className='mintButton1'>
                     MINT
                 </button>
-            </NavLink>
             <div className='stories'>
             <div className="story1">
                 <div className='box1'>

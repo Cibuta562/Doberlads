@@ -25,44 +25,101 @@
     width: 30px
 }
 
+.road-map-q1-text{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.road-map-q1-text h3{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .road-map-q1-text-shown{
+    text-align: left;
     color: aliceblue;
     text-shadow: 1px 1px lightblue;
     font-size: 20px;
     font-family: Fredoka;
-    margin-bottom: 20%;
-    margin-left: 20%;
-    margin-right: 10%;
+
 }
 
 .road-map-q1-text-unshown{
     display: none;
 }
 
+.road-map-q2-text{
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.road-map-q2-text h3{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
 .road-map-q2-text-shown{
+    text-align: left;
     color: aliceblue;
     text-shadow: 1px 1px lightblue;
     font-size: 20px;
     font-family: Fredoka;
-    margin-bottom: 20%;
-    margin-left: 20%;
-    margin-right: 10%;
 }
 
 .road-map-q2-text-unshown{
     display: none;
 }
 
-.road-map-q3-text-shown{
-    color: aliceblue;
-    text-shadow: 1px 1px lightblue;
-    font-size: 20px;
-    font-family: Fredoka;
+.road-map-q3-text{
     margin-bottom: 20%;
     margin-left: 20%;
     margin-right: 10%;
 }
 
+.road-map-q3-text h3{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.road-map-q3-text-shown{
+    text-align: left;
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
+    font-size: 20px;
+    font-family: Fredoka;
+}
+
 .road-map-q3-text-unshown{
     display: none;
+}
+
+.read-more-btn{
+    margin-left: 40%;
+    padding: 15px;
+    color: aliceblue;
+    font-family: Righteous;
+    text-shadow: 1px 1px lightblue;
+    background: transparent;
+    border: transparent;
+}
+
+.read-more-btn:hover{
+    font-size: 20px;
+}
+
+@media (max-width: 648px) {
+
+    .titleRoad{
+        margin-left: 5%;
+    }
+
+    .read-more-btn{
+        margin-left: 25%;
+    }
 }
