@@ -1,0 +1,433 @@
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.rainbow1{
+  position: relative;
+  z-index: 0;
+  height: 215px;
+  width: 215px;
+  overflow: hidden;
+  padding: 0.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(201, 97%, 24%),
+                    hsl(0, 0%, 100%),
+                    hsl(201, 97%, 24%),
+                    hsl(0, 0%, 100%),
+                    hsl(201, 97%, 24%),
+                    hsl(0, 0%, 100%),
+                    hsl(201, 97%, 24%),
+                    hsl(0, 0%, 100%)
+    );
+    animation: rotate 4s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}
+
+.rainbow2{
+  position: relative;
+  z-index: 0;
+  height: 215px;
+  width: 215px;
+  overflow: hidden;
+  padding: 0.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(33, 86%, 55%),
+                    hsl(0, 0%, 100%),
+                    hsl(33, 86%, 55%),
+                    hsl(0, 0%, 100%),
+                    hsl(33, 86%, 55%),
+                    hsl(0, 0%, 100%),
+                    hsl(33, 86%, 55%),
+                    hsl(0, 0%, 100%)
+    );
+    animation: rotate 4.5s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}
+
+.rainbow3{
+  position: relative;
+  z-index: 0;
+  height: 215px;
+  width: 215px;
+  overflow: hidden;
+  padding: 0.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(133, 67%, 55%),
+                    hsl(0, 0%, 100%),
+                    hsl(133, 67%, 55%),
+                    hsl(0, 0%, 100%),
+                    hsl(133, 67%, 55%),
+                    hsl(0, 0%, 100%),
+                    hsl(133, 67%, 55%),
+                    hsl(0, 0%, 100%)
+    );
+    animation: rotate 4.5s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}
+
+.rainbow4{
+  position: relative;
+  z-index: 0;
+  height: 215px;
+  width: 215px;
+  overflow: hidden;
+  padding: 0.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(296, 77%, 48%),
+                    hsl(0, 0%, 100%),
+                    hsl(296, 77%, 48%),
+                    hsl(0, 0%, 100%),
+                    hsl(296, 77%, 48%),
+                    hsl(0, 0%, 100%),
+                    hsl(296, 77%, 48%),
+                    hsl(0, 0%, 100%)
+    );
+    animation: rotate 4.5s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}
+
+.rainbow5{
+  position: relative;
+  z-index: 0;
+  height: 215px;
+  width: 215px;
+  overflow: hidden;
+  padding: 0.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(167, 67%, 55%),
+                    hsl(0, 0%, 100%),
+                    hsl(167, 67%, 55%),
+                    hsl(0, 0%, 100%),
+                    hsl(167, 67%, 55%),
+                    hsl(0, 0%, 100%),
+                    hsl(167, 67%, 55%),
+                    hsl(0, 0%, 100%)
+    );
+    animation: rotate 4.5s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}
+
+.rainbow6{
+  position: relative;
+  z-index: 0;
+  height: 215px;
+  width: 215px;
+  overflow: hidden;
+  padding: 0.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(264, 85%, 46%),
+                    hsl(0, 0%, 100%),
+                    hsl(264, 85%, 46%),
+                    hsl(0, 0%, 100%),
+                    hsl(264, 85%, 46%),
+                    hsl(0, 0%, 100%),
+                    hsl(264, 85%, 46%),
+                    hsl(0, 0%, 100%)
+    );
+    animation: rotate 4.5s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}
+
+.rainbow7{
+  position: relative;
+  z-index: 0;
+  height: 215px;
+  width: 215px;
+  overflow: hidden;
+  padding: 0.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(33, 100%, 76%),
+                    hsl(0, 0%, 100%),
+                    hsl(33, 100%, 76%),
+                    hsl(0, 0%, 100%),
+                    hsl(33, 100%, 76%),
+                    hsl(0, 0%, 100%),
+                    hsl(33, 100%, 76%),
+                    hsl(0, 0%, 100%)
+    );
+    animation: rotate 4.5s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}
+
+.rainbow {
+  position: relative;
+  z-index: 0;
+  width: 400px;
+  height: 612px;
+  overflow: hidden;
+  padding: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(344, 93%, 66%),
+                    hsl(269, 85%, 66%),
+                    hsl(314, 85%, 66%),
+                    hsl(359, 85%, 66%),
+                    hsl(44, 85%, 66%),
+                    hsl(89, 85%, 66%),
+                    hsl(134, 85%, 66%),
+                    hsl(179, 85%, 66%)
+    );
+    animation: rotate 3s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}
+
+.rainbow9 {
+  position: relative;
+  z-index: 0;
+  height: 305px;
+  width: 305px;
+  overflow: hidden;
+  padding: 0.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(344, 93%, 66%),
+                    hsl(0, 0%, 100%),
+                    hsl(344, 93%, 66%),
+                    hsl(306, 29%, 87%),
+                    hsl(344, 93%, 66%),
+                    hsl(0, 0%, 100%),
+                    hsl(344, 93%, 66%),
+                    hsl(0, 0%, 100%)
+    );
+    animation: rotate 3s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}
+
+.rainbow8 {
+  position: relative;
+  z-index: 0;
+  width: 605px;
+  height: 605px;
+  overflow: hidden;
+  padding: 0.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background: linear-gradient(
+                    hsl(344, 93%, 66%),
+                    hsl(0, 0%, 100%),
+                    hsl(344, 93%, 66%),
+                    hsl(306, 29%, 87%),
+                    hsl(344, 93%, 66%),
+                    hsl(0, 0%, 100%),
+                    hsl(344, 93%, 66%),
+                    hsl(0, 0%, 100%)
+    );
+    animation: rotate 3s linear infinite;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100%);
+    height: calc(100% );
+  }
+}

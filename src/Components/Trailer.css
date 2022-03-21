@@ -1,0 +1,7 @@
+.paragraph {
+    size: auto;
+    color: rgba(255, 255, 255, .8);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}

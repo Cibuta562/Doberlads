@@ -1,0 +1,119 @@
+.accordion{
+    position: relative;
+    height: fit-content;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+
+.item {
+    width: 80%;
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-bottom: 80px;
+    padding: 10px;
+    box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -5px 0 rgba(255, 255, 255, 0.25);
+}
+
+
+
+.faq{
+    font-family: Righteous;
+    align-items: center;
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
+    font-size: 45px;
+}
+
+.title {
+    font-family: Righteous;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button.plus{
+    content: "+";
+    background: transparent;
+    border: transparent;
+    width: 45px;
+    height: 45px;
+    min-width: 20px;
+    min-height: 20px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.minus{
+    content: "-";
+    background: transparent;
+    width: 45px;
+    height: 45px;
+    color: black;
+    font-size: 25px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.title h2{
+    text-shadow: 1px 1px lightblue;
+    font-family: Righteous;
+    color: black;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.content {
+    padding: 0;
+    max-height: 0;
+    position: relative;
+    background-color: #212839;
+    transition: transform 1s ease;
+
+}
+
+.content.show{
+    height: 100px;
+    max-height: 9999px;
+    position: relative;
+    background-color: #212839;
+    transition: transform 1s ease;
+}
+
+.contents{
+    font-family: Fredoka;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+@media (max-width: 648px) {
+
+    .title h2{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .item {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .contents{
+        text-align: center;
+        font-size: 22px;
+    }
+
+}

@@ -1,0 +1,35 @@
+.space{
+    height: 44px;
+    background-color: #001883;
+    width: 100%;
+}
+
+.text{
+    font-family: Fredoka;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+
+
+.text-h{
+    font-family: Fredoka;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 24px;
+}
+
+.text-margin{
+    font-family: Fredoka;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+.text-cont{
+    background-color: #001883;
+    text-align: center;
+}
+
+.TermsAndConditions{
+    margin: 0;
+    background-color: #001883;
+}

@@ -1,0 +1,68 @@
+.road-map{
+    color: aliceblue;
+    margin: 0;
+    background-color: #001883;
+}
+
+.titleRoad{
+    color: aliceblue;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.titleRoad h1{
+    font-family: Righteous;
+    text-shadow: 3px 3px lightblue;
+    font-size: 60px;
+}
+
+
+
+.doberImage{
+    height: 100px;
+    width: 30px
+}
+
+.road-map-q1-text-shown{
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
+    font-size: 20px;
+    font-family: Fredoka;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.road-map-q1-text-unshown{
+    display: none;
+}
+
+.road-map-q2-text-shown{
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
+    font-size: 20px;
+    font-family: Fredoka;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.road-map-q2-text-unshown{
+    display: none;
+}
+
+.road-map-q3-text-shown{
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
+    font-size: 20px;
+    font-family: Fredoka;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.road-map-q3-text-unshown{
+    display: none;
+}
