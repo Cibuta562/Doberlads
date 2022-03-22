@@ -20,6 +20,8 @@ const Faq = () => {
     }
 
 
+    const [show, setShow] = useState(false);
+
 
     return (
         <div className='accordion'>
@@ -37,6 +39,16 @@ const Faq = () => {
                     </div>
                 </div>
             ))}
+            <div className='item'>
+                <div className='title'  onClick={() => setShow(!show)}>
+                    <h3>Where can I ask more questions?</h3>
+            <div className='read-more-btn' onClick={() => setShow(!show)}>{show == false ? '+' : '-'}</div>
+                </div>
+            <section className={show == true ? 'road-map-q1-text-unshown-show' : 'road-map-q1-text-unshown'}>
+                Join our discord, where our admins will try to respond promptly
+            </section>
+
+        </div>
         </div>
     )
 }

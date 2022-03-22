@@ -54,7 +54,6 @@ const RoadMap = () => {
                         Entertaining clips, and many more activities are just some of the long-awaited community bonding events. All of these activities are meant for both amusement
                         and WhiteList sports awards. The end of Q2 will consist of the release and the minting event, available for the WhiteList 24 hours before the general public.</p>
                 </section>
-
                 <section className={show == true ? 'road-map-q2-text-unshown-show' : 'road-map-q2-text-unshown'}>
                     <h3>Beginning of Q2:</h3>
                     <p>- Focusing on building a community. -</p>

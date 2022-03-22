@@ -15,6 +15,7 @@
     margin-left: 10%;
     margin-bottom: 80px;
     padding: 10px;
+    color: black;
     box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
     inset 0 -5px 0 rgba(255, 255, 255, 0.25);
 }
@@ -24,7 +25,7 @@
 .faq{
     font-family: Righteous;
     align-items: center;
-    color: aliceblue;
+    color: black;
     text-shadow: 1px 1px lightblue;
     font-size: 45px;
 }
@@ -32,9 +33,9 @@
 .title {
     font-family: Righteous;
     display: flex;
-    margin-bottom: 30px;
+    margin-left: 30px;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 button.plus{
@@ -97,6 +98,92 @@ button.plus{
     overflow: hidden;
     transition: transform 1s ease;
 }
+
+.road-map-q1-text{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.road-map-q1-text h3{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.road-map-q1-text-shown{
+    text-align: left;
+    color: black;
+    text-shadow: 1px 1px lightblue;
+    font-size: 20px;
+    font-family: Fredoka;
+
+}
+
+.road-map-q1-text-unshown{
+    display: none;
+}
+
+.road-map-q1-text-unshown-show{
+    text-align: left;
+    color: black;
+    text-shadow: 1px 1px lightblue;
+    font-size: 20px;
+    font-family: Fredoka;
+    animation: top-to-bottom 0.5s ease-in;
+}
+
+
+
+@keyframes top-to-bottom {
+    0%{
+        transform: translateY(-15px);
+        opacity: 0;
+    }
+
+    50%{
+        transfrom: translateY(-7.5px);
+        opacity: 0.5;
+    }
+
+    /*66%{
+        transform: translateY(-20px);
+        opacity: 0.8;
+    }*/
+
+    100%{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+}
+
+.read-more-btn{
+    height: 50px;
+    color: black;
+    font-family: Righteous;
+    text-shadow: 1px 1px lightblue;
+    background: transparent;
+    border: transparent;
+}
+
+.read-more-btn:hover{
+    font-size: 20px;
+}
+
+@media (max-width: 648px) {
+
+    .titleRoad{
+        margin-left: 5%;
+    }
+
+    .read-more-btn{
+        margin-left: 25%;
+    }
+}
+
+
 
 @media (max-width: 648px) {
 

@@ -1,13 +1,15 @@
-import React from "react";
-import "./FaqJr.css"
-import "./FaqJr.scss"
+import React, {useContext} from "react";
+import './FaqJr.css'
+import {Accordion, AccordionContext, Card, useAccordionButton} from "react-bootstrap";
+
 
 
 function FaqJr() {
-
     return (
-            <div id="accordian">
+        <div>
 
         </div>
     );
-} export default FaqJr;
+}
+
+export default FaqJr
