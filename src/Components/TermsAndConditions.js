@@ -11,6 +11,7 @@ import HeaderPages from "./HeaderPages";
 import Footer from "./Footer";
 import {Container} from "react-bootstrap";
 import HeaderMobile from "./HeaderMobile";
+import ScrollAnimate from "react-scroll-fade-animation";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 
@@ -24,6 +25,7 @@ const TermsAndConditions = () => {
         <div className="TermsAndConditions">
             <HeaderMobile/>
             <div className="space"> </div>
+            <ScrollAnimate path={'bottom'}>
             <Container>
                 <div className="text-cont">
                     <p className="text-h">Terms of Service</p>
@@ -68,6 +70,7 @@ const TermsAndConditions = () => {
             </div>
             <div className="space"> </div>
             </Container>
+            </ScrollAnimate>
             <Footer/>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet"/>

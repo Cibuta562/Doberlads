@@ -23,7 +23,7 @@ const RoadMap = () => {
             <div className="titleRoad">
                 <h1>ROADMAP</h1>
             </div>
-
+            <ScrollAnimate path={'bottom'}>
             <div className="road-map-q1-text">
 
                 <section className="road-map-q1-text-shown">
@@ -50,7 +50,9 @@ const RoadMap = () => {
 
                 <button className='read-more-btn' onClick={() => setShow(!show)}>{show == false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
             </div>
+            </ScrollAnimate>
 
+            <ScrollAnimate path={'bottom'}>
             <div className="road-map-q2-text">
                 <section className='road-map-q2-text-shown'>
                     <h3>(Quarter 2) </h3>
@@ -71,6 +73,7 @@ const RoadMap = () => {
                 </section>
                 <button className='read-more-btn' onClick={() => setShow(!show)}>{show == false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
             </div>
+            </ScrollAnimate>
 
 
             <ScrollAnimate path={'bottom'}>
