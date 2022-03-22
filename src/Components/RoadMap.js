@@ -48,7 +48,7 @@ const RoadMap = () => {
                     <p>- Setting up the Discord and social media platforms. -</p>
                 </section>
 
-                <button className='read-more-btn' onClick={() => setShow(!show)}>{show == false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
+                <button  onClick={() => setShow(!show)} className={show == false ? 'read-more-btn' : 'read-more-btn'}>{show == false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
             </div>
             </ScrollAnimate>
 

@@ -51,7 +51,7 @@ const Team = () => {
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinBogdan}/>
                         </div>
                     </div>
-                   </div>
+                </div>
             </div>
 
             <div className="card1">

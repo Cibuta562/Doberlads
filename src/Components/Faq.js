@@ -32,23 +32,13 @@ const Faq = () => {
                 <div className='item'>
                     <div className='title'>
                         <h2>{item.question}</h2>
-                        <button style={{transform: "2s ease"}} onClick={() => toggle(i)} className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
+                        <button onClick={() => toggle(i)} className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
                     </div>
                     <div className='contents'>
                         <div className={selected == i ? 'content.show' : 'content'}>{item.answer}</div>
                     </div>
                 </div>
             ))}
-            <div className='item'>
-                <div className='title'  onClick={() => setShow(!show)}>
-                    <h3>Where can I ask more questions?</h3>
-            <div className='read-more-btn' onClick={() => setShow(!show)}>{show == false ? '+' : '-'}</div>
-                </div>
-            <section className={show == true ? 'road-map-q1-text-unshown-show' : 'road-map-q1-text-unshown'}>
-                Join our discord, where our admins will try to respond promptly
-            </section>
-
-        </div>
         </div>
     )
 }

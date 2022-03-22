@@ -20,6 +20,10 @@
     inset 0 -5px 0 rgba(255, 255, 255, 0.25);
 }
 
+.item {
+
+}
+
 
 
 .faq{
@@ -40,6 +44,7 @@
 
 button.plus{
     content: "+";
+    color: darkblue;
     background: transparent;
     border: transparent;
     width: 45px;
@@ -58,7 +63,7 @@ button.plus{
     background: transparent;
     width: 45px;
     height: 45px;
-    color: lightblue;
+    color: darkblue;
     font-size: 25px;
     border: transparent;
     cursor: pointer;
@@ -67,75 +72,38 @@ button.plus{
 .title h2{
     text-shadow: 1px 1px lightblue;
     font-family: Righteous;
-    color: black;
+    color: darkblue;
     font-size: 35px;
     padding: 10px;
 }
 
-.content {
-    padding: 0;
-    max-height: 0;
-    position: relative;
-    background-color: #212839;
-    transition: 1s ease;
+.content {opacity: 0;
+    color: #16164FFF;
+    height: 0px;
+}
+
+.button.minus item{
+    height: fit-content;
 
 }
 
 .content.show{
-    height: 100px;
+    animation: top-to-bottom 0.5s ease-in;
+    font-size: 20px;
+    height: 30px;
     max-height: 9999px;
-    position: relative;
-    background-color: #212839;
+    color: #16164FFF;
 }
 
 .contents{
     font-family: Fredoka;
     margin-left: 10px;
     margin-bottom: 10px;
-    color: black;
+    color: #16164FFF;
+    text-shadow: 0.5px 0.5px lightblue;
     font-size: 30px;
     text-align: left;
-    overflow: hidden;
-    transition: transform 1s ease;
 }
-
-.road-map-q1-text{
-    margin-top: 20%;
-    margin-bottom: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
-
-}
-
-.road-map-q1-text h3{
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.road-map-q1-text-shown{
-    text-align: left;
-    color: aliceblue;
-    text-shadow: 1px 1px lightblue;
-    font-size: 20px;
-    font-family: Fredoka;
-
-}
-
-.road-map-q1-text-unshown{
-    display: none;
-}
-
-.road-map-q1-text-unshown-show{
-    text-align: left;
-    color: aliceblue;
-    text-shadow: 1px 1px lightblue;
-    font-size: 20px;
-    font-family: Fredoka;
-    animation: top-to-bottom 0.5s ease-in;
-}
-
-
 
 @keyframes top-to-bottom {
     0%{
@@ -157,19 +125,6 @@ button.plus{
         transform: translatey(0px);
         opacity: 1;
     }
-}
-
-.read-more-btn{
-    height: 50px;
-    color: aliceblue;
-    font-family: Righteous;
-    text-shadow: 1px 1px lightblue;
-    background: transparent;
-    border: transparent;
-}
-
-.read-more-btn:hover{
-    font-size: 20px;
 }
 
 @media (max-width: 648px) {

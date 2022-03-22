@@ -1,7 +1,14 @@
-.paragraph {
-    size: auto;
-    color: rgba(255, 255, 255, .8);
-    margin: 20px;
-    padding: 15px;
-    border-radius: 10px;
+.trailer {
+
 }
+
+.titluTrailer{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 3px 3px lightblue;
+    font-size: 60px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: Righteous;
+}
+

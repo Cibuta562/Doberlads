@@ -11,6 +11,8 @@ const About = () => {
     return (
         <div className='diagonal'>
 
+            <h1 className='titluTrailer'>DOBERLADS</h1>
+
         <div className='stories'>
 
                 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>

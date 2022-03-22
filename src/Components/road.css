@@ -126,6 +126,17 @@
     animation: top-to-bottom 0.5s ease-in;
 }
 
+.read-more-btn.animated{
+    animation: top-to-bottom 0.5s ease-in;
+    margin-left: 40%;
+    padding: 15px;
+    color: aliceblue;
+    font-family: Righteous;
+    text-shadow: 1px 1px lightblue;
+    background: transparent;
+    border: transparent;
+}
+
 @keyframes top-to-bottom {
     0%{
         transform: translateY(-15px);
@@ -143,7 +154,7 @@
     }*/
 
     100%{
-        transform: translatey(0px);
+        transform: translateY(0px);
         opacity: 1;
     }
 }
