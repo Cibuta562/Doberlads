@@ -1,8 +1,10 @@
 .trailer {
-
+    width: 100%;
+    height: fit-content;
 }
 
 .titluTrailer{
+    position: center;
     text-align: center;
     color: aliceblue;
     text-shadow: 3px 3px lightblue;
@@ -10,5 +12,11 @@
     margin-top: 10%;
     margin-bottom: 10%;
     font-family: Righteous;
+}
+
+.video{
+    position: fixed;
+    width: 80%;
+    height: 100%;
 }
 

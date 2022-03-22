@@ -35,6 +35,9 @@ function App() {
         <div className='app'>
                 <HeaderMobile/>
             <ScrollAnimate path={'bottom'}>
+                <Trailer/>
+            </ScrollAnimate>
+            <ScrollAnimate path={'bottom'}>
                         <About/>
             </ScrollAnimate>
             <ScrollAnimate path={'bottom'}>
