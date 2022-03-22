@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Metamask from "./Components/Metamask";
 import Team from "./Components/Team"
 import Mint from './Components/Mint'
+import "animate.css/animate.min.css";
 import Faq from "./Components/Faq"
 import HeaderMobile from "./Components/HeaderMobile";
 import About from "./Components/About"
@@ -20,6 +21,7 @@ import "./Fonts/Roboto/Roboto-Bold.ttf";
 import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
 import "./Fonts/Archive/Archive/Commercial/OTF/Archive-Regular.otf";
 import "./Fonts/Roboto/Roboto-Black.ttf";
+import ScrollAnimation from 'react-animate-on-scroll';
 import background from './assets/background.jpg'
 import App2 from "./App2";
 import CookieConsent from "react-cookie-consent";
@@ -32,7 +34,7 @@ function App() {
         <div className='app'>
                 <HeaderMobile/>
                         <About/>
-                            <Team/>
+                <Team/>
                                 <Faq/>
                                 <FaqJr/>
                                     <CookieConsent debug={false} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px", borderRadius: "10px"}}

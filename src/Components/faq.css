@@ -25,7 +25,7 @@
 .faq{
     font-family: Righteous;
     align-items: center;
-    color: black;
+    color: lightblue;
     text-shadow: 1px 1px lightblue;
     font-size: 45px;
 }
@@ -58,7 +58,7 @@ button.plus{
     background: transparent;
     width: 45px;
     height: 45px;
-    color: black;
+    color: lightblue;
     font-size: 25px;
     border: transparent;
     cursor: pointer;
@@ -115,7 +115,7 @@ button.plus{
 
 .road-map-q1-text-shown{
     text-align: left;
-    color: black;
+    color: aliceblue;
     text-shadow: 1px 1px lightblue;
     font-size: 20px;
     font-family: Fredoka;
@@ -128,7 +128,7 @@ button.plus{
 
 .road-map-q1-text-unshown-show{
     text-align: left;
-    color: black;
+    color: aliceblue;
     text-shadow: 1px 1px lightblue;
     font-size: 20px;
     font-family: Fredoka;
@@ -161,7 +161,7 @@ button.plus{
 
 .read-more-btn{
     height: 50px;
-    color: black;
+    color: aliceblue;
     font-family: Righteous;
     text-shadow: 1px 1px lightblue;
     background: transparent;
