@@ -5,6 +5,9 @@ import Footer from "./Footer";
 import {useState} from 'react'
 import HeaderMobile from "./HeaderMobile";
 import Dober1 from "../assets/assets_website/dober.png";
+import "animate.css/animate.min.css";
+import ScrollAnimate from 'react-scroll-fade-animation';
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 import ScrollAnimation from "react-animate-on-scroll";
 
 
@@ -70,7 +73,7 @@ const RoadMap = () => {
             </div>
 
 
-            <ScrollAnimation animateIn="fadeIn">
+            <ScrollAnimate path={'bottom'}>
             <div className="road-map-q3-text">
                 <section className='road-map-q2-text-shown'>
                     <h3>(Quarter 3) </h3>
@@ -90,7 +93,7 @@ const RoadMap = () => {
                 </section>
                 <button className='read-more-btn' onClick={() => setShow(!show)}>{show == false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
             </div>
-            </ScrollAnimation>
+            </ScrollAnimate>
 
             <Footer />
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"/>

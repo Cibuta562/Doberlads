@@ -12,7 +12,7 @@ import Faq from "./Components/Faq"
 import HeaderMobile from "./Components/HeaderMobile";
 import About from "./Components/About"
 import { ethers, BigNumber } from "ethers";
-import { useEffect, useState} from "react";
+import React, { useEffect, useState} from "react";
 import mint from "./mintAbi.json"
 import FaqJr from "./Components/FaqJr";
 import Timer from "./Components/Timer";
@@ -25,6 +25,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import background from './assets/background.jpg'
 import App2 from "./App2";
 import CookieConsent from "react-cookie-consent";
+import ScrollAnimate from "react-scroll-fade-animation";
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 
@@ -33,9 +34,16 @@ function App() {
     return (
         <div className='app'>
                 <HeaderMobile/>
+            <ScrollAnimate path={'bottom'}>
                         <About/>
+            </ScrollAnimate>
+            <ScrollAnimate path={'bottom'}>
                 <Team/>
+            </ScrollAnimate>
+            <ScrollAnimate path={'bottom'}>
                                 <Faq/>
+            </ScrollAnimate>
+
                                 <FaqJr/>
                                     <CookieConsent debug={false} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px", borderRadius: "10px"}}
                                         style={{background: "#1e1e1e", fontFamily: "Fredoka"}} contentStyle={{marginLeft: "13%"}}>

@@ -23,6 +23,8 @@
     "react-ionicons": "^4.2.0",
     "react-router-dom": "^6.2.2",
     "react-scripts": "^5.0.0",
+    "react-scroll-fade-animation": "^0.5.3",
+    "react-scroll-motion": "^0.2.6",
     "react-transition-group": "^4.4.2",
     "sass": "^1.49.9",
     "serve": "^13.0.2",
