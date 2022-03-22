@@ -18,8 +18,6 @@
     font-size: 60px;
 }
 
-
-
 .doberImage{
     height: 100px;
     width: 30px
@@ -27,7 +25,7 @@
 
 .road-map-q1-text{
     margin-top: 20%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -61,7 +59,7 @@
 }
 
 .road-map-q2-text{
-    margin-bottom: 10%;
+    margin-bottom: 20%;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -126,17 +124,6 @@
     animation: top-to-bottom 0.5s ease-in;
 }
 
-.read-more-btn.animated{
-    animation: top-to-bottom 0.5s ease-in;
-    margin-left: 40%;
-    padding: 15px;
-    color: aliceblue;
-    font-family: Righteous;
-    text-shadow: 1px 1px lightblue;
-    background: transparent;
-    border: transparent;
-}
-
 @keyframes top-to-bottom {
     0%{
         transform: translateY(-15px);
@@ -170,7 +157,8 @@
 }
 
 .read-more-btn:hover{
-    font-size: 20px;
+    color: #6e59f9;
+    text-shadow: 1px 1px turquoise;
 }
 
 @media (max-width: 648px) {
