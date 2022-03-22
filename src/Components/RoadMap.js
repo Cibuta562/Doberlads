@@ -14,7 +14,54 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const RoadMap = () => {
 
-    const [show, setShow] = useState(false);
+    function moveQ1(){
+        window.scrollTo(0, 800)
+    }
+
+    function moveQ2(){
+        if(showQ1 === true){
+            window.scrollTo(0, 1875)
+        }
+        else {
+            window.scrollTo(0, 1300)
+        }
+    }
+
+    function moveQ3(){
+        if(showQ1 === true && showQ2 === false){
+            window.scrollTo(0, 2900)
+        }
+        else if(showQ1 === false && showQ2 === true){
+            window.scrollTo(0, 3200)
+        }
+        else if(showQ1 === true && showQ2 === true){
+            window.scrollTo(0, 4100)
+        }
+        else {
+            window.scrollTo(0, 2000)
+        }
+    }
+
+    function settingShowQ1(){
+        (setShowQ1(!showQ1));
+        moveQ1()
+    }
+
+    function settingShowQ2(){
+        (setShowQ2(!showQ2));
+        moveQ2()
+    }
+
+    function settingShowQ3(){
+        (setShowQ3(!showQ3));
+        moveQ3()
+    }
+
+    const [showQ1, setShowQ1] = useState(false);
+    const [showQ2, setShowQ2] = useState(false);
+    const [showQ3, setShowQ3] = useState(false);
+
+
     const text = "> Q1 is all about planning and setting up the project <";
     const text2 = "> Q2 is all about forming a self-driven and self-dependent community with a focus on Live Events, Community talks, and the Release. Live Streamed Contests,\n" +
         "                        Entertaining clips, and many more activities are just some of the long-awaited community bonding events. All of these activities are meant for both amusement\n" +
@@ -25,7 +72,7 @@ const RoadMap = () => {
         <div className='road-map'>
             <HeaderMobile />
             <div className="titleRoad">
-                <h1 className="roadmap-title">ROADMAP</h1>
+                    <h1 className="roadmap-title">ROADMAP</h1>
             </div>
             <ScrollAnimate path={'bottom'}>
             <div className="road-map-q1-text">
@@ -39,7 +86,7 @@ const RoadMap = () => {
                         it’s just the beginning … the best is yet to come.</p>
                 </section>
 
-                <section className={show == true ? 'road-map-q1-text-unshown-show' : 'road-map-q1-text-unshown'}>
+                <section className={showQ1 === true ? 'road-map-q1-text-unshown-show' : 'road-map-q1-text-unshown'}>
                     <div className="text-center-roadmap">
                     <h3 style={{marginTop: "30px"}}>Middle of Q1:</h3>
                     <p>- Coming up with the project. -</p>
@@ -53,7 +100,7 @@ const RoadMap = () => {
                     <p>- Setting up the Discord and social media platforms. -</p>
                     </div>
                 </section>
-                <button  onClick={() => setShow(!show)} className={show == false ? 'read-more-btn' : 'read-more-btn'}>{show == false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
+                <button onClick={settingShowQ1} className={showQ1 === false ? 'read-more-btn' : 'read-more-btn'} >{showQ1 === false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
             </div>
             </ScrollAnimate>
 
@@ -63,7 +110,7 @@ const RoadMap = () => {
                     <h3>(Quarter 2) </h3>
                     <p>{text2}</p>
                 </section>
-                <section className={show == true ? 'road-map-q2-text-unshown-show' : 'road-map-q2-text-unshown'}>
+                <section className={showQ2 == true ? 'road-map-q2-text-unshown-show' : 'road-map-q2-text-unshown'}>
                     <h3>Beginning of Q2:</h3>
                     <p>- Focusing on building a community. -</p>
                     <p>- Community events such as Esports tournaments, Movie Nights, Rap Battle, Online Board Games (Jackbox) etc. -</p>
@@ -74,14 +121,14 @@ const RoadMap = () => {
                     <p>- Minting & Release -</p>
                     <p>- Reveal (Live Event with the developers) -</p>
                 </section>
-                <button className='read-more-btn' onClick={() => setShow(!show)}>{show == false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
+                <button className='read-more-btn' onClick={settingShowQ2}>{showQ2 === false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
             </div>
             </ScrollAnimate>
 
 
             <ScrollAnimate path={'bottom'}>
-            <div className="road-map-q2-text" style={{textAlign: "center"}}>
-                <section className='road-map-q2-text-shown'>
+            <div className="road-map-q3-text" style={{textAlign: "center"}}>
+                <section className='road-map-q3-text-shown'>
                     <div className="text-center-roadmap">
                     <h3>(Quarter 3)</h3>
                     <p>{text3}</p>
@@ -92,13 +139,13 @@ const RoadMap = () => {
                         A piece of a better future starts with DobberLads.) -</p> </div>
                 </section>
 
-                <section className={show == true ? 'road-map-q2-text-unshown-show' : 'road-map-q3-text-unshown'}>
+                <section className={showQ3 === true ? 'road-map-q3-text-unshown-show' : 'road-map-q3-text-unshown'}>
                     <p>- Aspect & Rarity: Partnerships (After the minting event, we planned on accumulating a pool of 25% of our royalties destined for partnerships. -</p>
                     <p>- In our view, a partnership should be exciting and desirable. Consequently, we came up with 2 scenarios: a partnership of 3 exclusive Doberman NFTs done in the style of other NFT houses and premium DobberLads with layers of real-life exquisite brands.) -</p>
                     <p>- Humanitarian: Planting 5 trees for every NFT Minted. -</p>
                     <p>- Release the 2nd phase of the Roadmap. -</p>
                 </section>
-                <button className='read-more-btn' onClick={() => setShow(!show)}>{show == false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
+                <button className='read-more-btn' onClick={settingShowQ3}>{showQ3 === false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
             </div>
             </ScrollAnimate>
 

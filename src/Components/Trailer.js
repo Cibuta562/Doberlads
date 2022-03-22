@@ -1,7 +1,7 @@
 import React from 'react'
 import DobTrailer from '../assets/DobTrailer.mp4'
 import './Trailer.css'
-import video1 from "../assets/video/amsterdam.mp4"
+
 
 const Trailer = () => {
     return (
