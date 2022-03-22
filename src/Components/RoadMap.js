@@ -31,7 +31,7 @@ const RoadMap = () => {
                         it’s just the beginning … the best is yet to come. -</p>
                 </section>
 
-                <section className={show == true ? 'road-map-q1-text-shown' : 'road-map-q1-text-unshown'}>
+                <section className={show == true ? 'road-map-q1-text-unshown-show' : 'road-map-q1-text-unshown'}>
                     <h3>Middle of Q1:</h3>
                     <p>- Coming up with the project. -</p>
                     <p>- Forming the team. -</p>
@@ -55,7 +55,7 @@ const RoadMap = () => {
                         and WhiteList sports awards. The end of Q2 will consist of the release and the minting event, available for the WhiteList 24 hours before the general public.</p>
                 </section>
 
-                <section className={show == true ? 'road-map-q2-text-shown' : 'road-map-q2-text-unshown'}>
+                <section className={show == true ? 'road-map-q2-text-unshown-show' : 'road-map-q2-text-unshown'}>
                     <h3>Beginning of Q2:</h3>
                     <p>- Focusing on building a community. -</p>
                     <p>- Community events such as Esports tournaments, Movie Nights, Rap Battle, Online Board Games (Jackbox) etc. -</p>
@@ -80,7 +80,7 @@ const RoadMap = () => {
                         A piece of a better future starts with DobberLads.) -</p>
                 </section>
 
-                <section className={show == true ? 'road-map-q3-text-shown' : 'road-map-q3-text-unshown'}>
+                <section className={show == true ? 'road-map-q3-text-unshown-show' : 'road-map-q3-text-unshown'}>
                     <p>- Aspect & Rarity: Partnerships (After the minting event, we planned on accumulating a pool of 25% of our royalties destined for partnerships. -</p>
                     <p>- In our view, a partnership should be exciting and desirable. Consequently, we came up with 2 scenarios: a partnership of 3 exclusive Doberman NFTs done in the style of other NFT houses and premium DobberLads with layers of real-life exquisite brands.) -</p>
                     <p>- Humanitarian: Planting 5 trees for every NFT Minted. -</p>

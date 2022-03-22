@@ -76,7 +76,7 @@ button.plus{
     max-height: 0;
     position: relative;
     background-color: #212839;
-    transition: transform 1s ease;
+    transition: 1s ease;
 
 }
 
@@ -85,7 +85,6 @@ button.plus{
     max-height: 9999px;
     position: relative;
     background-color: #212839;
-    transition: transform 1s ease;
 }
 
 .contents{
