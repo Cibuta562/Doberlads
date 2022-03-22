@@ -77,7 +77,8 @@ button.plus{
     padding: 10px;
 }
 
-.content {opacity: 0;
+.content {
+    display: none;
     color: #16164FFF;
     height: 0px;
 }

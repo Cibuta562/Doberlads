@@ -135,15 +135,17 @@
 }
 
 .names{
+    color: aliceblue;
     font-family: "Righteous";
-    text-shadow: 0.5px 0.5px lightblue;
+    text-shadow: 1px 1px lightblue;
 }
 
 .descriere-rol{
     font-family: Fredoka;
     background-color: transparent;
     border: 5px solid transparent;
-    text-shadow: 0.5px 0.5px lightblue;
+    color: aliceblue;
+    text-shadow: 1px 1px lightblue;
     text-align: justify-all;
     margin-top: 20px;
     font-size: 24px;
@@ -151,10 +153,11 @@
 
 .descriere{
     font-family: Fredoka;
+    color: aliceblue;
     background-color: transparent;
     border: 5px solid transparent;
     text-align: justify-all;
-    text-shadow: 0.5px 0.5px lightblue;
+    text-shadow: 1px 1px lightblue;
     margin-top: -10px;
     font-size: 22px;
 }
