@@ -32,6 +32,9 @@ const Team = () => {
         window.location.href = "https://www.linkedin.com/in/vlad-popa-05a033235/";
     }
 
+    function moveToLinkedinStefan(){
+        window.location.href = "https://www.linkedin.com/in/radustefandumitru/";
+    }
 
     return (
 
@@ -82,9 +85,9 @@ const Team = () => {
                     <div className="content">
                         <h1 className='names'>Stefan</h1>
                         <div className="stefan">
-                            <img src={StefanDobb} className='stefan'/>
+                            <img src={StefanDobb} className='stefan' onClick={moveToLinkedinStefan}/>
                             <h3 className='descriere'>Lorem ipsum dolor sit amet dolor sit amet</h3>
-                            <img src = {LinkedinLogo} className={'logo'}/>
+                            <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinStefan}/>
                         </div>
                     </div>
                 </div>
