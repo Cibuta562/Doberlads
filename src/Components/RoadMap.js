@@ -15,28 +15,33 @@ import ScrollAnimation from "react-animate-on-scroll";
 const RoadMap = () => {
 
     const [show, setShow] = useState(false);
-
+    const text = "> Q1 is all about planning and setting up the project <";
+    const text2 = "> Q2 is all about forming a self-driven and self-dependent community with a focus on Live Events, Community talks, and the Release. Live Streamed Contests,\n" +
+        "                        Entertaining clips, and many more activities are just some of the long-awaited community bonding events. All of these activities are meant for both amusement\n" +
+        "                        and WhiteList sports awards. The end of Q2 will consist of the release and the minting event, available for the WhiteList 24 hours before the general public <"
+    const text3 = "> Q3 is all about innovation and development <"
     return (
 
         <div className='road-map'>
             <HeaderMobile />
             <div className="titleRoad">
-                <h1>ROADMAP</h1>
+                <h1 className="roadmap-title">ROADMAP</h1>
             </div>
             <ScrollAnimate path={'bottom'}>
             <div className="road-map-q1-text">
 
                 <section className="road-map-q1-text-shown">
                     <h3>(Quarter 1)</h3>
-                    <p>>>  Q1 is all about planning and setting up the project.</p>
-                    <p>- Ideas, meetings and rewards solely dedicated towards the community are brewing. Every detail and feature has been carefully considered. Accordingly, we only
+                    <p>{text}</p>
+                    <p>Ideas, meetings and rewards solely dedicated towards the community are brewing. Every detail and feature has been carefully considered. Accordingly, we only
                         want to provide you with the best experience available in the NFT market space. Thus, the end of Q1 is meant to bring all of these to your attention through
                         announcements on all the platforms we are registered on. The result could easily be seen in the events planned for you in Q2 and Q3. It’s worth remembering that
-                        it’s just the beginning … the best is yet to come. -</p>
+                        it’s just the beginning … the best is yet to come.</p>
                 </section>
 
                 <section className={show == true ? 'road-map-q1-text-unshown-show' : 'road-map-q1-text-unshown'}>
-                    <h3>Middle of Q1:</h3>
+                    <div className="text-center-roadmap">
+                    <h3 style={{marginTop: "30px"}}>Middle of Q1:</h3>
                     <p>- Coming up with the project. -</p>
                     <p>- Forming the team. -</p>
                     <p>- Setting the bases of the project. -</p>
@@ -46,8 +51,8 @@ const RoadMap = () => {
                     <p>- Making and releasing the website. -</p>
                     <p>- Beginning of marketing and branding. -</p>
                     <p>- Setting up the Discord and social media platforms. -</p>
+                    </div>
                 </section>
-
                 <button  onClick={() => setShow(!show)} className={show == false ? 'read-more-btn' : 'read-more-btn'}>{show == false ? 'READ MORE >>>' : 'READ LESS <<<'}</button>
             </div>
             </ScrollAnimate>
@@ -56,9 +61,7 @@ const RoadMap = () => {
             <div className="road-map-q2-text">
                 <section className='road-map-q2-text-shown'>
                     <h3>(Quarter 2) </h3>
-                    <p>>>  Q2 is all about forming a self-driven and self-dependent community with a focus on Live Events, Community talks, and the Release. Live Streamed Contests,
-                        Entertaining clips, and many more activities are just some of the long-awaited community bonding events. All of these activities are meant for both amusement
-                        and WhiteList sports awards. The end of Q2 will consist of the release and the minting event, available for the WhiteList 24 hours before the general public.</p>
+                    <p>{text2}</p>
                 </section>
                 <section className={show == true ? 'road-map-q2-text-unshown-show' : 'road-map-q2-text-unshown'}>
                     <h3>Beginning of Q2:</h3>
@@ -77,18 +80,19 @@ const RoadMap = () => {
 
 
             <ScrollAnimate path={'bottom'}>
-            <div className="road-map-q3-text">
+            <div className="road-map-q2-text" style={{textAlign: "center"}}>
                 <section className='road-map-q2-text-shown'>
-                    <h3>(Quarter 3) </h3>
-                    <p>>>  Q3 is all about innovation and development.</p>
+                    <div className="text-center-roadmap">
+                    <h3>(Quarter 3)</h3>
+                    <p>{text3}</p>
                     <p>- We have planned 3 ground-breaking ideas for every investor to enjoy: -</p>
                     <p>- Utility: DobberLads App (The DobberLads application is the element that elevates the project to the trait of real-world utility. The app has 2 impactful purposes:
                         helping people become more productive and allowing people to personalize their pieces of DobberLads art.
                         Accordingly, not only does it have in-app rewards for cutting down the usage of the device, but also has purchasable packs of layers.
-                        A piece of a better future starts with DobberLads.) -</p>
+                        A piece of a better future starts with DobberLads.) -</p> </div>
                 </section>
 
-                <section className={show == true ? 'road-map-q3-text-unshown-show' : 'road-map-q3-text-unshown'}>
+                <section className={show == true ? 'road-map-q2-text-unshown-show' : 'road-map-q3-text-unshown'}>
                     <p>- Aspect & Rarity: Partnerships (After the minting event, we planned on accumulating a pool of 25% of our royalties destined for partnerships. -</p>
                     <p>- In our view, a partnership should be exciting and desirable. Consequently, we came up with 2 scenarios: a partnership of 3 exclusive Doberman NFTs done in the style of other NFT houses and premium DobberLads with layers of real-life exquisite brands.) -</p>
                     <p>- Humanitarian: Planting 5 trees for every NFT Minted. -</p>

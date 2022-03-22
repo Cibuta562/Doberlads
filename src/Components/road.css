@@ -1,3 +1,13 @@
+
+.roadmap-title{
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+
+}
+
+
 .road-map{
     color: aliceblue;
     margin: 0;
@@ -6,8 +16,8 @@
 
 .titleRoad{
     color: aliceblue;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
     width: 100%;
     text-align: center;
 }
@@ -17,6 +27,8 @@
     text-shadow: 3px 3px lightblue;
     font-size: 60px;
 }
+
+
 
 .doberImage{
     height: 100px;
@@ -28,6 +40,7 @@
     margin-bottom: 20%;
     margin-left: 20%;
     margin-right: 20%;
+    text-align: center;
 }
 
 .road-map-q1-text h3{
@@ -124,6 +137,17 @@
     animation: top-to-bottom 0.5s ease-in;
 }
 
+.read-more-btn.animated{
+    animation: top-to-bottom 0.5s ease-in;
+    margin-left: 40%;
+    padding: 15px;
+    color: aliceblue;
+    font-family: Righteous;
+    text-shadow: 1px 1px lightblue;
+    background: transparent;
+    border: transparent;
+}
+
 @keyframes top-to-bottom {
     0%{
         transform: translateY(-15px);
@@ -147,7 +171,6 @@
 }
 
 .read-more-btn{
-    margin-left: 40%;
     padding: 15px;
     color: aliceblue;
     font-family: Righteous;
@@ -168,6 +191,38 @@
     }
 
     .read-more-btn{
-        margin-left: 25%;
+        margin-left: 0%;
+    }
+
+    .road-map-q1-text-shown{
+        text-align: center;
+    }
+
+    .road-map-q1-text-unshown-shown{
+        text-align: center;
+    }
+
+    .road-map-q2-text-shown{
+        text-align: center;
+    }
+
+    .road-map-q2-text-unshown-show{
+        text-align: center;
+    }
+
+    .road-map-q3-text-shown{
+        text-align: center;
+    }
+
+    .road-map-q3-text-unshown-show{
+        text-align: center;
+    }
+
+    .read-more-btn.animated {
+       margin-left: 0%;
+    }
+
+    .text-center-roadmap{
+        text-align: center;
     }
 }
