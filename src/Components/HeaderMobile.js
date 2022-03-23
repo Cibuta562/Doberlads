@@ -24,15 +24,15 @@ const HeaderMobile = () => {
     }
 
     function moveToTwitter(){
-        window.location.href = "https://twitter.com/nftshub_";
+        window.location.href = "https://twitter.com/DoberLads";
     }
 
     function moveToDiscord(){
-        window.location.href = "http://discord.gg/ZjtUSx9DjK";
+        window.location.href = "https://discord.gg/hCdmCCJdfx";
     }
 
     function moveToInsta(){
-        window.location.href = "https://www.instagram.com/nftshub_/";
+        window.location.href = "https://www.instagram.com/doberlads/";
     }
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
