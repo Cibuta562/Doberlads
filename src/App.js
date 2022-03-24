@@ -28,7 +28,7 @@ import CookieConsent from "react-cookie-consent";
 import ScrollAnimate from "react-scroll-fade-animation";
 import ReactGA from 'react-ga';
 const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
-const TRACKING_ID = "G-VM0ZDT4TC4";
+const TRACKING_ID = "UA-223827648-1";
 ReactGA.initialize(TRACKING_ID);
 
 
