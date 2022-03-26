@@ -1,7 +1,12 @@
 #bg-video{
-    object-fit: cover;
+    display: none;
     width: 100%;
     z-index: -1;
+    box-sizing: inherit;
+    border-width: 5px 5px 5px 5px;
+    border-color: aliceblue;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 6px 6px 0px 5px lightblue;
 }
 
 .trailer {
@@ -19,9 +24,9 @@
     font-family: Righteous;
 }
 
-.video{
-    position: fixed;
-    width: 80%;
-    height: 100%;
-}
 
+@media (max-width: 600px) {
+    #bg-video{
+        display: none;
+    }
+}
