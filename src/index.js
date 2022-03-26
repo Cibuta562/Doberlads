@@ -19,12 +19,13 @@ import Header from "./Components/Header";
 import TermsAndConditions from "./Components/TermsAndConditions";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import RoadMap from "./Components/RoadMap";
+import MintSoon from "./Components/MintSoon";
 
 ReactDOM.render(
     <Router>
         <Routes>
             <Route path="/" element={<App />} />
-            <Route path="/mint" element={<Mint />} />
+            <Route path="/mint" element={<MintSoon />} />
             <Route path = "/terms_of_service" element={<TermsAndConditions />} />
             <Route path = "/privacy_policy" element={<PrivacyPolicy />} />
             <Route path = "/roadmap" element = {<RoadMap />} />
