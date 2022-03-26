@@ -9,7 +9,7 @@ const Trailer = () => {
             <h1 className='titluTrailer'>DOBERLADS</h1>
             <div className="box">
                 <div className='trailer' id="bg-video">
-                    <video loop autoPlay>
+                    <video loop autoPlay muted>
                         <source src={DobTrailer} type="video/mp4"/>
                     </video>
                     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
