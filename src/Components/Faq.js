@@ -29,10 +29,10 @@ const Faq = () => {
                 <h1>FAQ</h1>
             </div>
             {data.map((item, i) => (
-                <div className='item'>
+                <div className='item' onClick={() => toggle(i)}>{selected == i ? '-' : '+'}>
                     <div className='title'>
                         <h2>{item.question}</h2>
-                        <button onClick={() => toggle(i)} className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
+                        <button  className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
                     </div>
                     <div className='contents'>
                         <div className={selected == i ? 'content.show' : 'content'}>{item.answer}</div>
