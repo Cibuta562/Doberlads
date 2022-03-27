@@ -8,6 +8,7 @@
 
 
 .item {
+    cursor: pointer;
     width: 80%;
     margin-top: 80px;
     background-color: white;
