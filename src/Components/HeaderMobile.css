@@ -54,7 +54,7 @@
 .mobile-menu {
     display: none;
 }
-@media (max-width: 648px) {
+@media (max-width: 768px) {
     /*Mobile View */
     .header {
         padding: 0px 10px;

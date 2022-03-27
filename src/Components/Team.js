@@ -36,6 +36,10 @@ const Team = () => {
         window.location.href = "https://www.linkedin.com/in/radustefandumitru/";
     }
 
+    function moveToLinkedRadu(){
+        window.location.href = "https://www.linkedin.com/in/lupu-radu-b20ba51aa/";
+    }
+
     return (
 
         <div className='container'>
@@ -129,10 +133,10 @@ const Team = () => {
                     <div className="continut">
                         <h1 className='names'>Radu</h1>
                         <div className="radu">
-                            <img src={RaduDobb} className={'radu'}/>
+                            <img src={RaduDobb} className={'radu'} onClick={moveToLinkedRadu}/>
                             <h3 className='descriere-rol'>Marketing</h3>
                             <h3 className='descriere'>npm run always eating...</h3>
-                            <img src = {LinkedinLogo} className={'logo'}/>
+                            <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedRadu}/>
                         </div>
                     </div>
                 </div>

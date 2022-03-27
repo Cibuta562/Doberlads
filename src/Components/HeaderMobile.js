@@ -34,6 +34,7 @@ const HeaderMobile = () => {
     function moveToInsta(){
         window.location.href = "https://www.instagram.com/doberlads/";
     }
+
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);

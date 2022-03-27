@@ -52,7 +52,7 @@
 .road-map-q1-text-shown{
     text-align: left;
     color: aliceblue;
-    text-shadow: 1px 1px lightblue;
+    /*text-shadow: 1px 1px lightblue;*/
     font-size: 20px;
     font-family: Fredoka;
 
@@ -65,7 +65,7 @@
 .road-map-q1-text-unshown-show{
     text-align: left;
     color: aliceblue;
-    text-shadow: 1px 1px lightblue;
+    /*text-shadow: 1px 1px lightblue;*/
     font-size: 20px;
     font-family: Fredoka;
     animation: top-to-bottom 0.5s ease-in;
@@ -86,7 +86,7 @@
 .road-map-q2-text-shown{
     text-align: left;
     color: aliceblue;
-    text-shadow: 1px 1px lightblue;
+    /*text-shadow: 1px 1px lightblue;*/
     font-size: 20px;
     font-family: Fredoka;
 }
@@ -98,7 +98,7 @@
 .road-map-q2-text-unshown-show{
     text-align: left;
     color: aliceblue;
-    text-shadow: 1px 1px lightblue;
+    /*text-shadow: 1px 1px lightblue;*/
     font-size: 20px;
     font-family: Fredoka;
     animation: top-to-bottom 0.5s ease-in;
@@ -131,7 +131,7 @@
 .road-map-q3-text-unshown-show{
     text-align: left;
     color: aliceblue;
-    text-shadow: 1px 1px lightblue;
+    /*text-shadow: 1px 1px lightblue;*/
     font-size: 20px;
     font-family: Fredoka;
     animation: top-to-bottom 0.5s ease-in;
@@ -143,7 +143,7 @@
     padding: 15px;
     color: aliceblue;
     font-family: Righteous;
-    text-shadow: 1px 1px lightblue;
+    /*text-shadow: 1px 1px lightblue;*/
     background: transparent;
     border: transparent;
 }
@@ -174,14 +174,14 @@
     padding: 15px;
     color: aliceblue;
     font-family: Righteous;
-    text-shadow: 1px 1px lightblue;
+    /*text-shadow: 1px 1px lightblue;*/
     background: transparent;
     border: transparent;
 }
 
 .read-more-btn:hover{
     color: #6e59f9;
-    text-shadow: 1px 1px turquoise;
+    /*text-shadow: 1px 1px lightblue;*/
 }
 
 @media (max-width: 648px) {
