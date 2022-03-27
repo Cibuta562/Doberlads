@@ -1,12 +1,12 @@
 import React from 'react'
 import "./team.css"
-import EugenDobb from "../Nfts/Lime.png";
-import BobocDobb from "../Nfts/Orange.png";
-import RaduDobb from "../Nfts/Pink.png";
-import BogdanDobb from "../assets/Aqua.png"
-import StefanDobb from '../Nfts/Cyan.png';
-import CristianaDobb from "../Nfts/Beige.png";
-import VladDobb from "../Nfts/Purple.png";
+import EugenDobb from "../assets/eugen.jpg";
+import BobocDobb from "../assets/boboc.jpeg";
+import RaduDobb from "../assets/radu.jpeg";
+import BogdanDobb from "../assets/lazarL.jpg";
+import StefanDobb from '../assets/stefan.jpeg';
+import CristianaDobb from "../assets/cristiana.jpeg";
+import VladDobb from "../assets/vlad.jpeg";
 import LinkedinLogo from '../assets/linkedin.png'
 import "./Mint.scss";
 
@@ -41,13 +41,13 @@ const Team = () => {
         <div className='container'>
 
             <div className="card1">
-                <div className="icon">
+                <div className="icon" style={{marginTop:"10px"}}>
                     <div className="continut">
                         <h1 className='names'>Bogdan</h1>
                         <div className="bogdan">
-                            <img src={BogdanDobb} className={'bogdan'} onClick={moveToLinkedinBogdan}/>
+                            <img src={BogdanDobb} className={'bogdan'} onClick={()=> window.open(moveToLinkedinBogdan, "_blank")} />
                             <h3 className='descriere-rol'>Web Dev</h3>
-                            <h3 className='descriere'>npm run always eating...</h3>
+                            <h3 className='descriere'>stresses out from anything</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinBogdan}/>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const Team = () => {
             </div>
 
             <div className="card1">
-                <div className="icon">
+                <div className="icon" style={{marginTop:"10px"}}>
                     <div className="continut">
                         <h1 className='names'>Boboc</h1>
                         <div className="boboc">
@@ -69,13 +69,13 @@ const Team = () => {
             </div>
 
             <div className="card1">
-                <div className="icon">
+                <div className="icon" style={{marginTop:"10px"}}>
                     <div className="continut">
                         <h1 className='names'>Eugen</h1>
                         <div className="eugen">
                             <img src={EugenDobb} className='eugen' onClick={moveToLinkedinEugen}/>
                             <h3 className='descriere-rol'>Marketing</h3>
-                            <h3 className='descriere'>npm run always eating...</h3>
+                            <h3 className='descriere'>doesn't ever agree</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinEugen}/>
                         </div>
                     </div>
@@ -83,13 +83,13 @@ const Team = () => {
             </div>
 
             <div className="card1">
-                <div className="icon">
+                <div className="icon" style={{marginTop:"10px"}}>
                     <div className="continut">
                         <h1 className='names'>Stefan</h1>
                         <div className="stefan">
                             <img src={StefanDobb} className='stefan' onClick={moveToLinkedinStefan}/>
                             <h3 className='descriere-rol'>Marketing</h3>
-                            <h3 className='descriere'>npm run always eating...</h3>
+                            <h3 className='descriere'>always late on meetings</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinStefan}/>
                         </div>
                     </div>
@@ -97,13 +97,13 @@ const Team = () => {
             </div>
 
             <div className="card1">
-                <div className="icon">
+                <div className="icon" style={{marginTop:"10px"}}>
                     <div className="continut">
                         <h1 className='names'>Cristiana</h1>
                         <div className="cristiana">
                             <img src={CristianaDobb} className={'cristiana'} onClick={moveToLinkedinCristiana}/>
                             <h3 className='descriere-rol'>Artist</h3>
-                            <h3 className='descriere'>npm run always eating...</h3>
+                            <h3 className='descriere'>unluckiest person alive</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinCristiana}/>
                         </div>
                     </div>
@@ -111,13 +111,13 @@ const Team = () => {
             </div>
 
             <div className="card1">
-                <div className="icon">
+                <div className="icon" style={{marginTop:"10px"}}>
                     <div className="continut">
                         <h1 className='names'>Vlad</h1>
                         <div className="vlad">
                             <img src={VladDobb} className={'vlad'} onClick={moveToLinkedinVlad}/>
                             <h3 className='descriere-rol'>Marketing</h3>
-                            <h3 className='descriere'>npm run always eating...</h3>
+                            <h3 className='descriere'>never gets any credit</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinVlad}/>
                         </div>
                     </div>
@@ -125,7 +125,7 @@ const Team = () => {
             </div>
 
             <div className="card1">
-                <div className="icon">
+                <div className="icon" style={{marginTop:"10px"}}>
                     <div className="continut">
                         <h1 className='names'>Radu</h1>
                         <div className="radu">

@@ -92,6 +92,7 @@ button.plus{
     animation: top-to-bottom 0.5s ease-in;
     font-size: 20px;
     height: 30px;
+    margin-left: 20px;
     max-height: 9999px;
     color: #16164FFF;
 }
