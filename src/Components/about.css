@@ -7,6 +7,9 @@
 }
 
 .stories h2{
+    color: aliceblue;
+    text-shadow: 2px 2px lightblue;
+    font-size: 40px;
     font-family: 'Righteous';
 }
 
@@ -111,8 +114,11 @@
         font-size: 22px;
     }
 
-    .story1{
-        /*text-shadow: 0.5px 0.5px lightblue;*/
+    .stories h2{
+        color: aliceblue;
+        text-shadow: 2px 2px lightblue;
+        font-size: 30px;
+        font-family: 'Righteous';
     }
 
 }
