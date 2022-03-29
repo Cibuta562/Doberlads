@@ -67,6 +67,7 @@
 }
 
 .mintButton1 {
+    transition: 0.45s;
     margin-top: -10%;
     border: 4px solid royalblue;
     background-color: rgba(255, 255, 255, 0.8);

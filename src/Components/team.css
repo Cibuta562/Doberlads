@@ -16,6 +16,7 @@
       flex-wrap: wrap;
   }
 .card1{
+    transition: 0.45s;
     position: relative;
     overflow: hidden;
     width: 330px;
@@ -31,6 +32,10 @@
     border: 5px aliceblue;
 }
 
+.card1:hover{
+    background-color: #07246b;
+}
+
 /*.card1::before{
     content: '';
     position: absolute;
@@ -43,11 +48,6 @@
     pointer-events: none;
     filter: blur(5px);
 }*/
-
- .card1 img {
- overflow: hidden;
-
- }
 
 
  .card1::before{
@@ -73,7 +73,6 @@
  }*/
 
 .eugen{
-    cursor: pointer;
     height: 180px;
     width: 180px;
     border-style: solid;
@@ -81,10 +80,13 @@
     border-color: aliceblue;
     border-radius: 11px 11px 11px 11px;
     box-shadow: 6px 6px 0px 5px lightblue;
+}
+
+.eugen img{
+    cursor: pointer;
 }
 
 .radu{
-    cursor: pointer;
     height: 180px;
     width: 180px;
     border-style: solid;
@@ -92,10 +94,13 @@
     border-color: aliceblue;
     border-radius: 11px 11px 11px 11px;
     box-shadow: 6px 6px 0px 5px lightblue;
+}
+
+.radu img{
+    cursor: pointer;
 }
 
 .vlad{
-    cursor: pointer;
     height: 180px;
     width: 180px;
     border-style: solid;
@@ -103,10 +108,13 @@
     border-color: aliceblue;
     border-radius: 11px 11px 11px 11px;
     box-shadow: 6px 6px 0px 5px lightblue;
+}
+
+.vlad img{
+    cursor: pointer;
 }
 
 .stefan{
-    cursor: pointer;
     height: 180px;
     width: 180px;
     border-style: solid;
@@ -116,8 +124,11 @@
     box-shadow: 6px 6px 0px 5px lightblue;
 }
 
-.boboc {
+.stefan img{
     cursor: pointer;
+}
+
+.boboc {
     height: 180px;
     width: 180px;
     border-style: solid;
@@ -128,8 +139,11 @@
     z-index: 3;
 }
 
-.bogdan{
+.boboc img{
     cursor: pointer;
+}
+
+.bogdan{
     height: 180px;
     width: 180px;
     border-style: solid;
@@ -139,11 +153,13 @@
     box-shadow: 6px 6px 0px 5px lightblue;
     background-size: contain;
     background-repeat: no-repeat;
+}
 
+.bogdan img{
+    cursor: pointer;
 }
 
 .cristiana{
-    cursor: pointer;
     height: 180px;
     width: 180px;
     border-style: solid;
@@ -151,6 +167,10 @@
     border-color: aliceblue;
     border-radius: 11px 11px 11px 11px;
     box-shadow: 6px 6px 0px 5px lightblue;
+}
+
+.cristiana img{
+    cursor: pointer;
 }
 
 .content{
@@ -188,6 +208,8 @@
 }
 
 .logo{
+    transition: 0.45s;
+    cursor: pointer;
     height: 45px;
     width: 45px;
     position: center;

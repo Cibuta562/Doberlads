@@ -1,11 +1,6 @@
 import React from 'react'
 import "./faq.css"
 import {useState} from 'react'
-import Header from "./Header";
-import * as events from "events";
-import Footer from "./Footer";
-import {Accordion} from "react-bootstrap";
-
 
 const Faq = () => {
 
@@ -45,18 +40,26 @@ const Faq = () => {
 
 const data = [
     {
-        question: 'What is an NFT?',
+        question: 'HOW DO I GET A DOBERLAD?',
         answer:
-            'LMAO just screenshot one',
+            'You will be able to mint your Doberlad by clicking the MINT button up above, on our website.',
     },
     {
-        question: 'How many are there?',
+        question: 'HOW MANY DOBERLADS ARE THERE GOING TO BE?',
         answer:
-            '10K boiiii',
+            'The Doberlads collection will feature 10,000 unique NFTs.',
     },
     {
-        question: 'Where can I ask more questions?',
-        answer: 'Join our discord, where our admins will try to respond promptly',
+        question: 'HOW MANY DOBERLADS CAN I BUY?',
+        answer: 'Everyone can own up to 2 Doberlads per wallet. This is to prevent wales from buying out the whole collection.',
+    },
+    {
+        question: 'WHAT WILL THE MINTING PRICE BE?',
+        answer: 'The minting price will be 0.1 ETH',
+    },
+    {
+      question: 'WHERE CAN I ASK MORE QUESTIONS?',
+        answer: "Feel free to join our Discord community where you can get all the help you need from our staff: https://discord.gg/hCdmCCJdfx",
     }
 ]
 
