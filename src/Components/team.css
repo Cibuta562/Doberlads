@@ -184,7 +184,7 @@
 .names{
     color: aliceblue;
     font-family: "Righteous";
-    text-shadow: 1.5px 1.5px lightblue;
+    text-shadow: 1px 1px lightblue;
 }
 
 .descriere-rol{
@@ -204,7 +204,6 @@
     background-color: transparent;
     border: 5px solid transparent;
     text-align: justify-all;
-    text-shadow: 1px 1px lightblue;
     margin-top: -10px;
     font-size: 22px;
 }
