@@ -131,7 +131,7 @@ const Team = () => {
             <div className="card1">
                 <div className="icon" style={{marginTop:"10px"}}>
                     <div className="continut">
-                        <h1 className='names'>Radu</h1>
+                        <h1 className='names'>Andrew</h1>
                         <div className="radu">
                             <img src={RaduDobb} className={'radu'} onClick={moveToLinkedRadu}/>
                             <h3 className='descriere-rol'>Marketing</h3>
