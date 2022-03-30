@@ -33,7 +33,7 @@
 }
 
 .card1:hover{
-    background-color: #07246b;
+    background-color: #1e1e1e;
 }
 
 /*.card1::before{
@@ -72,7 +72,9 @@
 
  }*/
 
+
 .eugen{
+    transition: 0.45s;
     height: 180px;
     width: 180px;
     border-style: solid;

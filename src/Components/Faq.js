@@ -30,7 +30,7 @@ const Faq = () => {
                         <button  className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
                     </div>
                     <div className='contents'>
-                        <div className={selected == i ? 'content.show' : 'content'}>{item.answer}</div>
+                        <div className={selected == i ? 'contents.show' : 'content'}>{item.answer}</div>
                     </div>
                 </div>
             ))}
@@ -58,8 +58,8 @@ const data = [
         answer: 'The minting price will be 0.1 ETH',
     },
     {
-      question: 'WHERE CAN I ASK MORE QUESTIONS?',
-        answer: "Feel free to join our Discord community where you can get all the help you need from our staff: https://discord.gg/hCdmCCJdfx",
+      question: 'WHAT ARE OUR SECONDARY ROYALTY FEES?',
+        answer: "Our secondary royalty fees are 5%",
     }
 ]
 
