@@ -2,7 +2,7 @@ import './about.css'
 import './Mint.scss'
 
 import React, { useEffect } from 'react';
-import { NavLink } from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import ScrollAnimate from "react-scroll-fade-animation";
 import Trailer from "./Trailer";
 
@@ -31,9 +31,11 @@ const About = () => {
                 </div>
             </div>
         </div>
+            <Link className="no-hover-mint" to="/mint">
             <button className='mintButton1'>
-                    MINT
+                MINT
                 </button>
+            </Link>
             <ScrollAnimate path={'bottom'}>
                 <div className='stories'>
                     <div className="story1">

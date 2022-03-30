@@ -17,13 +17,14 @@ import reportWebVitals from '../reportWebVitals';
 import TermsAndConditions from "../Components/PrivacyPolicy";
 import PrivacyPolicy from "../Components/PrivacyPolicy";
 import RoadMap from "../Components/RoadMap";
+import MintSoon from "../Components/MintSoon";
 
 
 const Webpages = () => {
     return(
         <Router>
             <Route exact path="/" component= {About} />
-            <Route path = "/mint" component = {Mint} />
+            <Route path = "/mint" component = {MintSoon} />
             <Route path = "/team" component = {Team} />
             <Route path = "/terms_of_service" component={TermsAndConditions} />
             <Route path = "/privacy_policy" component={PrivacyPolicy} />

@@ -2,12 +2,16 @@ import React from 'react'
 import './Timer.css'
 import dobbsLogo from '../assets/header/img.png'
 import twitterIcon from '../assets/assets_website/pngwing.com.png'
-import discordIcon from '../assets/assets_website/discord-black-icon-703937.png'
 import instagramIcon from '../assets/assets_website/5ecec78673e4440004f09e77.png'
 import searchIcon from '../assets/header/search.png'
+import discordIcon from "../assets/assets_website/discord-black-icon-703937.png";
 
 
 const Timer  = () => {
+
+    function moveToDiscord(){
+        window.location.href = "https://discord.gg/hCdmCCJdfx";
+    }
 
     let  curTime = new Date().toLocaleString();
     let curDate = curTime.toString().split('/');
@@ -67,7 +71,13 @@ const Timer  = () => {
 
     return (
         <div className="timer" style={{margin: 0}}>
-            <p className="timer-p">MINT AVAILABLE SOON</p>
+            <p className="timer-p">THE MINT PAGE IS COMING SOON...</p>
+            <p className="timer-p">BE THE FIRST TO KNOW</p>
+            <center>
+            <button style={{marginTop: "20px"}} className='mintButton1' onClick={moveToDiscord}>
+                <img className="img-soon" src={discordIcon} onClick={moveToDiscord}/>
+            </button>
+            </center>
         </div>
 
     )
