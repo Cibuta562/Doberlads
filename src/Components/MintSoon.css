@@ -1,31 +1,5 @@
 .mint-soon{
-    background: linear-gradient(to bottom, #7388E1FF,#7388E1FF,#2344b9,#001883,#001883,#001883, #364baf, #7388E1FF);
-}
-
-#bg-video{
-    display: none;
-    width: 100%;
-    z-index: -1;
-    box-sizing: inherit;
-    border-width: 5px 5px 5px 5px;
-    border-color: aliceblue;
-    border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 5px lightblue;
-}
-
-.trailer {
-    width: 100%;
-    height: fit-content;
-}
-
-.titluTrailer{
-    text-align: center;
-    color: aliceblue;
-    text-shadow: 3px 3px lightblue;
-    font-size: 60px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    font-family: Righteous;
+    background: linear-gradient(to bottom, #7388E1FF,#2344b9, #7388E1FF);
 }
 
 .space-soon{
@@ -36,20 +10,42 @@
 
 .space-soon-top{
     width: 100%;
-    height: 300px;
+    height: 200px;
     position: relative;
 }
 
+.mintButtonDiscord {
+    opacity: 50%;
+    margin-top: 10%;
+    cursor: pointer;
+    transition: 0.45s;
+    border: 4px solid black;
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding: 20px 45px;
+    color: royalblue;
+    cursor: pointer;
+    font-family: 'Fredoka';
+    max-width: 80em;
+    font-size: 24px;
+}
 
-@media (max-width: 600px) {
-    #bg-video{
-        display: none;
-    }
+.mintButtonDiscord:hover{
+    opacity: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    border: 4px solid black;
+}
 
+
+@media (max-width: 900px) {
     .space-soon-top{
         width: 100%;
         height: 300px;
         position: relative;
+    }
+
+    .mintButtonDiscord {
+        margin-top: 40%;
     }
 }
 

@@ -9,10 +9,6 @@ import discordIcon from "../assets/assets_website/discord-black-icon-703937.png"
 
 const Timer  = () => {
 
-    function moveToDiscord(){
-        window.location.href = "https://discord.gg/hCdmCCJdfx";
-    }
-
     let  curTime = new Date().toLocaleString();
     let curDate = curTime.toString().split('/');
     let curDay = curDate[0];
@@ -73,11 +69,6 @@ const Timer  = () => {
         <div className="timer" style={{margin: 0}}>
             <p className="timer-p">THE MINT PAGE IS COMING SOON...</p>
             <p className="timer-p">BE THE FIRST TO KNOW</p>
-            <center>
-            <button style={{marginTop: "20px"}} className='mintButton1' onClick={moveToDiscord}>
-                <img className="img-soon" src={discordIcon} onClick={moveToDiscord}/>
-            </button>
-            </center>
         </div>
 
     )
