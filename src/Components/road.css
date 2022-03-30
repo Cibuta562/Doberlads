@@ -37,7 +37,7 @@
 
 .road-map-q1-text{
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
@@ -72,7 +72,7 @@
 }
 
 .road-map-q2-text{
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -105,7 +105,7 @@
 }
 
 .road-map-q3-text{
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     margin-left: 20%;
     margin-right: 10%;
 }
@@ -171,6 +171,7 @@
 }
 
 .read-more-btn{
+    transition: 0.45s;
     padding: 15px;
     color: aliceblue;
     font-family: Righteous;

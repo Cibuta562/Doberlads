@@ -8,6 +8,7 @@
 
 
 .item {
+    transition: 0.45s;
     cursor: pointer;
     width: 80%;
     margin-top: 80px;
@@ -21,18 +22,11 @@
     inset 0 -5px 0 rgba(255, 255, 255, 0.25);
 }
 
-.item {
-
-}
-
-
-
 .faq{
-    font-family: Righteous;
-    align-items: center;
-    color: lightblue;
-    text-shadow: 1px 1px lightblue;
-    font-size: 45px;
+    color: aliceblue;
+    text-shadow: 2px 2px lightblue;
+    font-size: 40px;
+    font-family: 'Righteous';
 }
 
 .title {
@@ -71,7 +65,7 @@ button.plus{
 }
 
 .title h2{
-    text-shadow: 1px 1px lightblue;
+    text-shadow: 2px 2px lightblue;
     font-family: Righteous;
     color: darkblue;
     font-size: 35px;

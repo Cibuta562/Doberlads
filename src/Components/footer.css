@@ -4,6 +4,7 @@ body {
 }
 
 .text-footer{
+    transition: 0.45s;
     margin-top: 33%;
     font-size: 24px;
     font-family: Fredoka;
@@ -79,6 +80,7 @@ body {
 }
 
 .terms{
+    transition: 0.45s;
     margin: 0;
     justify-content: center;
     text-align: center;
@@ -88,6 +90,7 @@ body {
 }
 
 .privacy{
+    transition: 0.45s;
     margin-top: 0;
     margin-bottom: 0;
     justify-content: center;
@@ -111,6 +114,7 @@ body {
     color: lightblue;
     cursor: pointer;
 }
+
 
 .card {
     background-color: #7388E1FF;

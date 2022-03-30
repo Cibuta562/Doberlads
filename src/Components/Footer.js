@@ -34,7 +34,7 @@ const Footer = () => {
         <div className='footer-big'>
             <div className="cards" style={{ backgroundColor: "#7388E1FF", margin: 0}}>
                 <div className="card-logo display-footer" style={{position: "relative", backgroundColor: "#7388E1FF"}} >
-                    <div className='footerLogo'>
+                    <div className='footerLogo' onClick={moveToTop}>
                     <img src={dubbsLogo} className='footerLogo img-logo'  onClick={moveToTop}/>
                     <div className=' text-footer'>
                         <Link className="no-decorations l-text" to="/">
