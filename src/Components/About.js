@@ -20,7 +20,7 @@ const About = () => {
                         <h2 style={{marginBottom: "20px"}}>WHAT IS DOBERLADS?</h2>
                         <div className='non-hoverAbout'>
                        <p style={{textAlign: "center"}} >
-                           🦴 DoberLads is the best entry-level collection of 10,000 NFTs. Having its spotlight on Dobermans, the art comes up as an exquisite acquisition for any Metaverse gallery.
+                           🦴 DoberLads is the best collection of 10,000 NFTs. Having its spotlight on Dobermans, the art comes up as an exquisite acquisition for any Metaverse gallery.
                         </p>
                             <p style={{textAlign: "center"}}>
                                 🦴 The lads’ development team values, above all, quality, taste and creativity, attributes found both in the character and the management of the project. They analysed in depth the extent to which a project can bring real life benefits to it’s community members,
