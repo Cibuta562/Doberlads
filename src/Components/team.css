@@ -74,6 +74,7 @@
 
 
 .eugen{
+    background-color: aliceblue;
     transition: 0.45s;
     height: 180px;
     width: 180px;
@@ -89,6 +90,7 @@
 }
 
 .radu{
+    background-color: aliceblue;
     height: 180px;
     width: 180px;
     border-style: solid;
@@ -103,6 +105,7 @@
 }
 
 .vlad{
+    background-color: aliceblue;
     height: 180px;
     width: 180px;
     border-style: solid;
@@ -117,6 +120,7 @@
 }
 
 .stefan{
+    background-color: aliceblue;
     height: 180px;
     width: 180px;
     border-style: solid;
@@ -131,6 +135,7 @@
 }
 
 .boboc {
+    background-color: aliceblue;
     height: 180px;
     width: 180px;
     border-style: solid;
@@ -146,15 +151,14 @@
 }
 
 .bogdan{
+    background-color: aliceblue;
     height: 180px;
     width: 180px;
-    border-style: solid;
     border-width: 5px 5px 5px 5px;
     border-color: aliceblue;
-    border-radius: 11px 11px 11px 11px;
+    border-style: solid;
+    border-radius:11px 11px 11px 11px;
     box-shadow: 6px 6px 0px 5px lightblue;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .bogdan img{
@@ -162,6 +166,7 @@
 }
 
 .cristiana{
+    background-color: aliceblue;
     height: 180px;
     width: 180px;
     border-style: solid;

@@ -59,7 +59,7 @@ const data = [
     },
     {
       question: 'WHAT ARE OUR SECONDARY ROYALTY FEES?',
-        answer: "Our secondary royalty fees are 5%",
+        answer: "Our secondary royalty fees are 10%",
     }
 ]
 
