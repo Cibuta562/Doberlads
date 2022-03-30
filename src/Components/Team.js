@@ -107,7 +107,7 @@ const Team = () => {
                         <div className="cristiana">
                             <img src={CristianaDobb} className={'cristiana'} onClick={moveToLinkedinCristiana}/>
                             <h3 className='descriere-rol'>Artist</h3>
-                            <h3 className='descriere'>Unluckiest person alive</h3>
+                            <h3 className='descriere'>Always on our vibe</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinCristiana}/>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ const Team = () => {
                         <div className="vlad">
                             <img src={VladDobb} className={'vlad'} onClick={moveToLinkedinVlad}/>
                             <h3 className='descriere-rol'>Marketing</h3>
-                            <h3 className='descriere'>Never gets any credit</h3>
+                            <h3 className='descriere'>Always underappreciated</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinVlad}/>
                         </div>
                     </div>

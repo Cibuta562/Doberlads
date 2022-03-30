@@ -41,7 +41,7 @@ const About = () => {
                                 <h2 style={{marginBottom: "20px"}}>WHO ARE WE?</h2>
                                     <div className='non-hoverAbout'>
                                         <p style={{textAlign: "center"}}>
-                                            🦴 DoberLads is a team of 5 guys that share a passion for dogs.
+                                            🦴 DoberLads is a team of 7 lads that share a passion for dogs.
                                             Our mission is to bring Dobermans to the ERC-271 blockchain and give every one of you a chance to own your very own custom Doberman NFT.
                                             We will bring our NFTs to the Metaverse with an app ready to offer functionality and battle procrastination.
                                             We have nothing but good intentions for our fans and the environment and we'd love to welcome you guys in our community.
