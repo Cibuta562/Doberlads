@@ -51,7 +51,7 @@ const data = [
     },
     {
         question: 'HOW MANY DOBERLADS CAN I BUY?',
-        answer: 'Everyone can own up to 2 Doberlads per wallet. This is to prevent wales from buying out the whole collection.',
+        answer: 'Everyone can mint up to 2 Doberlads per wallet. This is to prevent wales from buying out the whole collection.',
     },
     {
         question: 'WHAT WILL THE MINTING PRICE BE?',
@@ -59,7 +59,7 @@ const data = [
     },
     {
       question: 'WHAT ARE OUR SECONDARY ROYALTY FEES?',
-        answer: "Our secondary royalty fees are 5%",
+        answer: "Our secondary royalty fees are 10%",
     }
 ]
 
