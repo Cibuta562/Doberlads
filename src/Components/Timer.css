@@ -1,5 +1,4 @@
 .timer {
-    font-family: 'Fredoka';
     height: 100px;
     /*background-color: #7388E1FF;*/
     background-color: rgba(0,0,0,0);
@@ -12,6 +11,12 @@
 .img-soon{
     height: 40px;
     width: 40px;
+}
+
+.arrowSoon{
+    text-align: center;
+    font-size: 48px;
+    font-family: Righteous;
 }
 
 .timer-p{

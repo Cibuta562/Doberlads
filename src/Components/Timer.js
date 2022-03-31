@@ -68,8 +68,9 @@ const Timer  = () => {
     return (
         <div className="timer" style={{margin: 0}}>
             <p className="timer-p">THE MINT PAGE IS COMING SOON...</p>
-            <p className="timer-p">BE THE FIRST TO KNOW</p>
+            <p className="timer-p">TO BE THE FIRST TO KNOW</p>
             <p className="timer-p">JOIN OUR DISCORD BELOW</p>
+            <p className="arrowSoon">ↆ</p>
         </div>
 
     )
