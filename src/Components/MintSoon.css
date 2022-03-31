@@ -45,19 +45,9 @@
     }
 
     .mintButtonDiscord {
-        margin-top: 50%;
+        margin-top: 80%;
     }
 }
 
-@media (max-width: 900px) {
-    .space-soon-top{
-        width: 100%;
-        height: 300px;
-        position: relative;
-    }
 
-    .mintButtonDiscord {
-        margin-top: 50%;
-    }
-}
 
