@@ -44,7 +44,7 @@ const Footer = () => {
                    </div>
                 </div>
                 <div className="card-logo" style={{position: "relative", backgroundColor: "#7388E1FF", margin: 0}}>
-                    <div className="footerItems">
+                    <div className="footerItems" onClick={moveToTop}>
                     <Link className="no-decorations " to="/terms_of_service"><p className='terms'>Terms of Service</p></Link>
                     <p className='dash'>|</p>
                     <Link className="no-decorations " to="/privacy_policy"><p className='privacy'>Privacy Policy</p></Link>

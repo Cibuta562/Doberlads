@@ -35,6 +35,15 @@ const HeaderMobile = () => {
         window.location.href = "https://www.instagram.com/doberlads/";
     }
 
+    function moveToTop() {
+        window.scrollTo(0,0);
+    }
+
+    function mobileAndMove(){
+        moveToTop();
+        closeMobileMenu();
+    }
+
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
@@ -64,7 +73,7 @@ const HeaderMobile = () => {
                             <p className='road-maphead' onClick={moveToFAQ}>FAQ</p>
                         </Link>
                     </li>
-                    <li className="option " onClick={closeMobileMenu} >
+                    <li className="option " onClick={mobileAndMove} >
                         <Link  to="/roadmap"  style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
                             <p className='road-maphead'>ROADMAP</p>
                         </Link>
