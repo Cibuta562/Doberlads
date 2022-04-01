@@ -47,7 +47,7 @@ const data = [
     {
         question: 'HOW MANY DOBERLADS ARE THERE GOING TO BE?',
         answer:
-            'The Doberlads collection will feature 10,000 unique NFTs.',
+            'TBA.',
     },
     {
         question: 'HOW MANY DOBERLADS CAN I BUY?',
