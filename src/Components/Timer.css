@@ -1,5 +1,4 @@
 .timer {
-    font-family: 'Fredoka';
     height: 100px;
     /*background-color: #7388E1FF;*/
     background-color: rgba(0,0,0,0);
@@ -14,29 +13,10 @@
     width: 40px;
 }
 
-.mintButton1 {
-    transition: 0.45s;
-    margin-top: -10%;
-    border: 4px solid royalblue;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 50px;
-    padding: 20px 45px;
-    margin-right: 20px;
-    color: royalblue;
-    cursor: pointer;
-    font-family: 'Fredoka';
-    /*text-shadow: 1px 1px lightblue;*/
-    max-width: 80em;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
-.mintButton1:hover{
-    /*text-shadow: 1px 1px lightgrey;*/
-    background-color: royalblue;
-    color: rgba(255, 255, 255, 0.8);
-    border: 4px solid rgba(255, 255, 255, 0.8);
+.arrowSoon{
+    text-align: center;
+    font-size: 48px;
+    font-family: Righteous;
 }
 
 .timer-p{

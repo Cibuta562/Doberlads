@@ -11,7 +11,7 @@
 .road-map{
     color: aliceblue;
     margin: 0;
-    background-color: #001883;
+    background: linear-gradient(to bottom, #7388E1FF,#2344b9, #7388E1FF);
 }
 
 .titleRoad{
@@ -181,7 +181,7 @@
 }
 
 .read-more-btn:hover{
-    color: #6e59f9;
+    color: lightblue;
     /*text-shadow: 1px 1px lightblue;*/
 }
 
