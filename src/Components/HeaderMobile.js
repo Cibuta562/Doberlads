@@ -24,15 +24,15 @@ const HeaderMobile = () => {
     }
 
     function moveToTwitter(){
-        window.location.href = "https://twitter.com/DoberLads";
+        window.open ("https://twitter.com/DoberLads");
     }
 
     function moveToDiscord(){
-        window.location.href = "https://discord.gg/hCdmCCJdfx";
+        window.open ("https://discord.gg/hCdmCCJdfx");
     }
 
     function moveToInsta(){
-        window.location.href = "https://www.instagram.com/doberlads/";
+        window.open ("https://www.instagram.com/doberlads/");
     }
 
     function moveToTop() {
