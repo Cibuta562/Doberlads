@@ -10,6 +10,10 @@ const About = () => {
     useEffect(() => {
         document.title = 'Doberlads';
     });
+
+    function moveToTop(){
+        window.scrollTo(0, 100);
+    }
     return (
         <div className='diagonal'>
         <div className='stories'>
@@ -28,7 +32,7 @@ const About = () => {
             </div>
         </div>
             <Link className="no-hover-mint" to="/mint">
-            <button className='mintButton1'>
+            <button className='mintButton1' onClick={moveToTop}>
                 MINT
                 </button>
             </Link>
