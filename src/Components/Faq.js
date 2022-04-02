@@ -55,11 +55,11 @@ const data = [
     },
     {
         question: 'WHAT WILL THE MINTING PRICE BE?',
-        answer: 'The minting price will be 0.1 ETH',
+        answer: 'The minting price will be announced in the coming weeks',
     },
     {
       question: 'WHAT ARE OUR SECONDARY ROYALTY FEES?',
-        answer: "Our secondary royalty fees are 10%",
+        answer: "Our secondary royalty fees are 5%",
     }
 ]
 

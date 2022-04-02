@@ -1,6 +1,6 @@
 .space{
     height: 44px;
-    background-color: #001883;
+    background: transparent;
     width: 100%;
 }
 
@@ -25,11 +25,11 @@
 }
 
 .text-cont{
-    background-color: #001883;
+    background: transparent;
     text-align: center;
 }
 
 .TermsAndConditions{
     margin: 0;
-    background-color: #001883;
+    background: linear-gradient(to bottom, #7388E1FF,#2344b9, #7388E1FF);
 }

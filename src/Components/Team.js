@@ -76,20 +76,6 @@ const Team = () => {
             <div className="card1">
                 <div className="icon" style={{marginTop:"10px"}}>
                     <div className="continut">
-                        <h1 className='names'>Eugen</h1>
-                        <div className="eugen">
-                            <img src={EugenDobb} className='eugen' onClick={moveToLinkedinEugen}/>
-                            <h3 className='descriere-rol'>Marketing</h3>
-                            <h3 className='descriere'>Always fighting</h3>
-                            <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinEugen}/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="card1">
-                <div className="icon" style={{marginTop:"10px"}}>
-                    <div className="continut">
                         <h1 className='names'>Stefan</h1>
                         <div className="stefan">
                             <img src={StefanDobb} className='stefan' onClick={moveToLinkedinStefan}/>
