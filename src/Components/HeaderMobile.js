@@ -19,8 +19,8 @@ const HeaderMobile = () => {
         window.scrollTo(0,1200);
     }
 
-    function moveToAbout() {
-        window.scrollTo(0,250);
+    function moveToDoberlads() {
+        window.scrollTo(0,0);
     }
 
     function moveToTwitter(){
@@ -60,7 +60,7 @@ const HeaderMobile = () => {
                 <ul className={click ? "nav-options active" : "nav-options"}>
                     <li className="option " onClick={closeMobileMenu}>
                         <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)"}}>
-                            <p className='road-maphead' onClick={moveToAbout}>DOBERLADS</p>
+                            <p className='road-maphead' onClick={moveToDoberlads}>DOBERLADS</p>
                         </Link>
                     </li>
                     <li className="option" onClick={closeMobileMenu} >

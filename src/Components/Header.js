@@ -28,8 +28,8 @@ const Header = () => {
         window.scrollTo(0,1200);
     }
 
-    function moveToAbout() {
-        window.scrollTo(0,250);
+    function moveToDoberlads() {
+        window.scrollTo(0,0);
     }
 
     function moveToTwitter(){
@@ -62,7 +62,7 @@ const Header = () => {
                 <img src={dobbsLogo} className='dubbLogo' alt=''/>
             </div>
             <div className='headerItems'>
-                <p className='abouthead' onClick={moveToAbout}>ABOUT</p>
+                <p className='abouthead' onClick={moveToDoberlads}>ABOUT</p>
                 <p className='teamhead' onClick={moveToTeam}>TEAM</p>
                 <p className='faqhead' onClick={moveToFAQ}>FAQ</p>
                 <Link className="road-maphead" to="/roadmap">
