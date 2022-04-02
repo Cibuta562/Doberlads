@@ -8,7 +8,7 @@ import Trailer from "./Trailer";
 
 const About = () => {
     useEffect(() => {
-        document.title = 'About';
+        document.title = 'Doberlads';
     });
     return (
         <div className='diagonal'>
