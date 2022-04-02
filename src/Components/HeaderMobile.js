@@ -60,7 +60,7 @@ const HeaderMobile = () => {
                 <ul className={click ? "nav-options active" : "nav-options"}>
                     <li className="option " onClick={closeMobileMenu}>
                         <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)"}}>
-                            <p className='road-maphead' onClick={moveToAbout}>ABOUT</p>
+                            <p className='road-maphead' onClick={moveToAbout}>DOBERLADS</p>
                         </Link>
                     </li>
                     <li className="option" onClick={closeMobileMenu} >
@@ -74,7 +74,7 @@ const HeaderMobile = () => {
                         </Link>
                     </li>
                     <li className="option " onClick={mobileAndMove} >
-                        <Link  to="/roadmap"  style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
+                        <Link  to="/roadmap" style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
                             <p className='road-maphead'>ROADMAP</p>
                         </Link>
                     </li>

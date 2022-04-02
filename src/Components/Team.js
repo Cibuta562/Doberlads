@@ -9,35 +9,36 @@ import CristianaDobb from "../assets/cristiana.jpeg";
 import VladDobb from "../assets/vlad.jpeg";
 import LinkedinLogo from '../assets/linkedin.png'
 import "./Mint.scss";
+import {Link} from "react-router-dom";
 
 const Team = () => {
 
     function moveToLinkedinBogdan(){
-        window.location.href = "https://www.linkedin.com/in/bogdan-lazar-23545a1a0/";
+        window.open("https://www.linkedin.com/in/bogdan-lazar-23545a1a0/");
     }
 
     function moveToLinkedinBoboc(){
-        window.location.href = "https://www.linkedin.com/in/boboc-robert-andrei-a2b21a175/";
+        window.open("https://www.linkedin.com/in/boboc-robert-andrei-a2b21a175/");
     }
 
     function moveToLinkedinEugen(){
-        window.location.href = "https://www.linkedin.com/in/bulboaca-eugen-4015b9219/";
+        window.open("https://www.linkedin.com/in/bulboaca-eugen-4015b9219/");
     }
 
     function moveToLinkedinCristiana(){
-        window.location.href = "https://www.linkedin.com/in/cristiana-tache-5b7b8a216/";
+        window.open("https://www.linkedin.com/in/cristiana-tache-5b7b8a216/");
     }
 
     function moveToLinkedinVlad(){
-        window.location.href = "https://www.linkedin.com/in/vlad-popa-05a033235/";
+        window.open("https://www.linkedin.com/in/vlad-popa-05a033235/");
     }
 
     function moveToLinkedinStefan(){
-        window.location.href = "https://www.linkedin.com/in/radustefandumitru/";
+        window.open("https://www.linkedin.com/in/radustefandumitru/");
     }
 
     function moveToLinkedRadu(){
-        window.location.href = "https://www.linkedin.com/in/lupu-radu-b20ba51aa/";
+        window.open("https://www.linkedin.com/in/lupu-radu-b20ba51aa/");
     }
 
     return (
