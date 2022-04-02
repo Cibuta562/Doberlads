@@ -11,7 +11,7 @@ import discordIcon from "../assets/assets_website/discord-black-icon-703937.png"
 const MintSoon = () => {
 
     function moveToDiscord(){
-        window.location.href = "https://discord.gg/hCdmCCJdfx";
+        window.open ("https://discord.gg/hCdmCCJdfx");
     }
 
     return (
