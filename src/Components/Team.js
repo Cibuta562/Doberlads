@@ -50,7 +50,7 @@ const Team = () => {
                     <div className="continut">
                         <h1 className='names'>Bogdan</h1>
                         <div className="bogdan">
-                            <img src={BogdanDobb} className={'bogdan'} onClick={()=> window.open(moveToLinkedinBogdan, "_blank")} />
+                            <img src={BogdanDobb} className={'bogdan'} onClick={moveToLinkedinBogdan} />
                             <h3 className='descriere-rol'>Web Dev</h3>
                             <h3 className='descriere'>Always bossy</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinBogdan}/>
