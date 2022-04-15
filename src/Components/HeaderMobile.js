@@ -17,7 +17,7 @@ const HeaderMobile = () => {
         const tql = window.matchMedia('(max-width: 900px)');
         let tabletView = tql.matches;
 
-        const tlql = window.matchMedia('(max-width: 1180px)');
+        const tlql = window.matchMedia('(max-width: 1100px)');
         let tabletLandView = tlql.matches;
 
         const dql = window.matchMedia('(min-width: 1280px)');
@@ -27,9 +27,9 @@ const HeaderMobile = () => {
 
 
             const listenScrollEvent = (event) => {
-                if (window.scrollY < 2000 && desktopView) {
+                if (window.scrollY < 2100 && desktopView) {
                     return setHeader("header")
-                } else if (window.scrollY > 2050 && desktopView) {
+                } else if (window.scrollY > 2150 && desktopView) {
                     return setHeader("header2")
                 }
                 else if (window.scrollY < 3400 && mobileView) {
