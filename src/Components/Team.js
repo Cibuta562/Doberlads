@@ -1,6 +1,5 @@
 import React from 'react'
 import "./team.css"
-import EugenDobb from "../assets/eugen.jpg";
 import BobocDobb from "../assets/boboc.jpeg";
 import RaduDobb from "../assets/radu.jpeg";
 import BogdanDobb from "../assets/lazarL.jpg";
@@ -19,10 +18,6 @@ const Team = () => {
 
     function moveToLinkedinBoboc(){
         window.open("https://www.linkedin.com/in/boboc-robert-andrei-a2b21a175/");
-    }
-
-    function moveToLinkedinEugen(){
-        window.open("https://www.linkedin.com/in/bulboaca-eugen-4015b9219/");
     }
 
     function moveToLinkedinCristiana(){

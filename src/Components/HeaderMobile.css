@@ -1,5 +1,15 @@
 .header {
     display: flex;
+    z-index: 2;
+    background-color: #7388E1FF;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header2{
+    display: flex;
+    z-index: 2;
     background-color: #7388E1FF;
     justify-content: space-between;
     align-items: center;
@@ -20,8 +30,10 @@
     justify-content: center;
 }
 .doberLogo {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    top: -25px;
+    position: absolute;
 }
 .nav-options {
     display: flex;
@@ -113,6 +125,13 @@
         transform: translate(0%, 0%);
     }
 
+    .doberLogo {
+        height: 100px;
+        width: 100px;
+        top: +3px;
+        position: absolute;
+    }
+
 
 }
 
@@ -171,6 +190,8 @@
     cursor: pointer;
     width: 100px;
     height: 100px;
+    position: absolute;
+    margin-top: -25px;
 }
 
 .logoContainer{
