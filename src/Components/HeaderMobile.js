@@ -4,7 +4,7 @@ import { ReactComponent as MenuIcon } from "../assets/owner/menu.svg";
 import { ReactComponent as Logo } from "../assets/owner/menu.svg";
 import "./HeaderMobile.css";
 import {Link} from "react-router-dom";
-import dobbsLogo from "../assets/llogo.png";
+import dobbsLogo from "../assets/llogo.PNG";
 import instagramIcon from "../assets/assets_website/5ecec78673e4440004f09e77.png";
 import twitterIcon from "../assets/assets_website/pngwing.com.png";
 import discordIcon from "../assets/assets_website/discord-black-icon-703937.png";

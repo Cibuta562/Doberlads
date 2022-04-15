@@ -84,11 +84,25 @@
 }
 
 @media (max-width: 648px) {
-    .box1_road{
-        margin-left: 10%;
+    .box_road1{
+        margin-left: 3.5%;
+        align-items: center;
+        right: 10%;
     }
 
     .box_road{
-        margin-left: 10%;
+        margin-left: 3.5%;
+        align-items: center;
+        right: 10%;
+    }
+}
+
+@media (max-width: 1180px){
+    .box_road{
+        margin-left: 27.5%;
+    }
+
+    .box_road1{
+        margin-left: 27.5%;
     }
 }

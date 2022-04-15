@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import discordIcon from "../assets/assets_website/discord-black-icon-703937.png";
 import instagramIcon from "../assets/assets_website/5ecec78673e4440004f09e77.png";
 import twitterIcon from "../assets/assets_website/pngwing.com.png";
-import dubbsLogo from "../assets/llogo.png";
+import dubbsLogo from "../assets/llogo.PNG";
 import {Col, Container, NavLink, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
