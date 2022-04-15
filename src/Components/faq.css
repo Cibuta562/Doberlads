@@ -6,9 +6,6 @@
     align-items: center;
 }
 
-.faq-h2{
-    font-size: 24px;
-}
 
 .item {
     transition: 0.45s;
@@ -38,7 +35,6 @@
     margin-left: 30px;
     justify-content: space-between;
     margin-top: 15px;
-    font-size: 24px;
 }
 
 button.plus{
@@ -72,7 +68,7 @@ button.plus{
     text-shadow: 2px 2px lightblue;
     font-family: Righteous;
     color: darkblue;
-    font-size: 28px;
+    font-size: 35px;
     padding: 10px;
 }
 

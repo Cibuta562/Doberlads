@@ -1,6 +1,8 @@
 import React from 'react'
 import "./faq.css"
 import {useState} from 'react'
+import ScrollAnimate from "react-scroll-fade-animation";
+import Trailer from "./Trailer";
 
 const Faq = () => {
 
@@ -30,7 +32,7 @@ const Faq = () => {
                         <button  className={selected == i ? 'minus' : 'plus'}>{selected == i ? '-' : '+'}</button>
                     </div>
                     <div className='contents'>
-                        <div className={selected == i ? 'contents.show' : 'content'}>{item.answer}</div>
+                            <div className={selected == i ? 'contents.show' : 'content'}>{item.answer}</div>
                     </div>
                 </div>
             ))}

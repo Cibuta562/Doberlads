@@ -27,14 +27,14 @@ const HeaderMobile = () => {
 
 
             const listenScrollEvent = (event) => {
-                if (window.scrollY < 2100 && desktopView) {
+                if (window.scrollY < 1500 && desktopView) {
                     return setHeader("header")
-                } else if (window.scrollY > 2150 && desktopView) {
+                } else if (window.scrollY > 1650 && desktopView) {
                     return setHeader("header2")
                 }
-                else if (window.scrollY < 3400 && mobileView) {
+                else if (window.scrollY < 3800 && mobileView) {
                     return setHeader("header")
-                } else if (window.scrollY > 3450 && mobileView) {
+                } else if (window.scrollY > 3950 && mobileView) {
                     return setHeader("header2")
                 }
                   else if (window.scrollY < 3600 && tabletView) {

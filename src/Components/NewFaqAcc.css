@@ -1,0 +1,106 @@
+.bootAcc1{
+    z-index: -1000;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 80px;
+    background-color: white;
+    margin-left: 10%;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -5px 0 rgba(255, 255, 255, 0.25);
+}
+
+.bootAcc1:focus {
+    z-index: -1000;
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+.bootAcc2{
+    z-index: -1000;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 80px;
+    background-color: white;
+    margin-left: 10%;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -5px 0 rgba(255, 255, 255, 0.25);
+}
+
+.bootAcc3{
+    z-index: -1000;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 80px;
+    background-color: white;
+    margin-left: 10%;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -5px 0 rgba(255, 255, 255, 0.25);
+}
+
+.bootAcc4{
+    z-index: -1000;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 80px;
+    background-color: white;
+    margin-left: 10%;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 15px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -5px 0 rgba(255, 255, 255, 0.25);
+}
+
+.bootAcc6{
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+
+}
+
+.accordion-button:focus {
+    border-color: white;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color:white;
+    box-shadow: none;
+}
+
+h2{
+    text-size: 30px;
+    color: black;
+    font-family: Righteous;
+}
+
+.accordion-body{
+    font-size: 25px;
+    display: flex;
+    font-family: Fredoka;
+    color: black;
+    align-items: flex-start;
+}
+
+.newFaqtitle h1{
+    color: aliceblue;
+    text-shadow: 2px 2px lightblue;
+    font-size: 50px;
+    font-family: 'Righteous';
+}
+
+

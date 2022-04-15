@@ -1,4 +1,5 @@
 .header {
+    z-index: 1000;
     display: flex;
     z-index: 2;
     background-color: #7388E1FF;
@@ -149,7 +150,7 @@
 
 .header {
     background-color: #7388E1FF;
-    z-index: 2;
+    z-index: 1000;
     text-shadow: 1px 1px lightblue;
     position: sticky;
     top: 0%;

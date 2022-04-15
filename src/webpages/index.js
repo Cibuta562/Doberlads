@@ -16,7 +16,7 @@ import About from "../Components/About"
 import reportWebVitals from '../reportWebVitals';
 import TermsAndConditions from "../Components/PrivacyPolicy";
 import PrivacyPolicy from "../Components/PrivacyPolicy";
-import RoadMap from "../Components/RoadMap";
+import RoadmapNew from "../Components/RoadmapNew";
 import MintSoon from "../Components/MintSoon";
 
 
@@ -28,7 +28,7 @@ const Webpages = () => {
             <Route path = "/team" component = {Team} />
             <Route path = "/terms_of_service" component={TermsAndConditions} />
             <Route path = "/privacy_policy" component={PrivacyPolicy} />
-            <Route path = "/roadmap" component={RoadMap} />
+            <Route path = "/roadmap" component={RoadmapNew} />
         </Router>
     );
 };
