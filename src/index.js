@@ -29,6 +29,7 @@ ReactDOM.render(
             <Route path = "/terms_of_service" element={<TermsAndConditions />} />
             <Route path = "/privacy_policy" element={<PrivacyPolicy />} />
             <Route path = "/roadmap" element = {<RoadMap />} />
+            <Route path = "/mint_test" element={<Mint/>} />
         </Routes>
     </Router>,
 

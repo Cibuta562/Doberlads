@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import discordIcon from "../assets/assets_website/discord-black-icon-703937.png";
 import instagramIcon from "../assets/assets_website/5ecec78673e4440004f09e77.png";
 import twitterIcon from "../assets/assets_website/pngwing.com.png";
-import dubbsLogo from "../assets/header/logo_no_background.png";
+import dubbsLogo from "../assets/llogo.png";
 import {Col, Container, NavLink, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
@@ -35,7 +35,7 @@ const Footer = () => {
             <div className="cards" style={{ backgroundColor: "#7388E1FF", margin: 0}}>
                 <div className="card-logo display-footer" style={{position: "relative", backgroundColor: "#7388E1FF"}} >
                     <div className='footerLogo' onClick={moveToTop}>
-                    <img src={dubbsLogo} className='footerLogo img-logo'  onClick={moveToTop}/>
+                    <img src={dubbsLogo} className='footerLogo img-logo'  onClick={moveToTop} style={{marginRight: "10px", marginLeft: "10px"}}/>
                     <div className=' text-footer'>
                         <Link className="no-decorations l-text" to="/">
                             DoberLads

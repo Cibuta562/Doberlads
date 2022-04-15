@@ -29,6 +29,7 @@ const Webpages = () => {
             <Route path = "/terms_of_service" component={TermsAndConditions} />
             <Route path = "/privacy_policy" component={PrivacyPolicy} />
             <Route path = "/roadmap" component={RoadMap} />
+            <Route path = "/mint_test" component={Mint} />
         </Router>
     );
 };

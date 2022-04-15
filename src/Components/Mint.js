@@ -1,38 +1,12 @@
 import React from 'react'
-import MetaMaskOnboarding from '@metamask/onboarding';
 import './Mint.css'
-import "./Mint.scss"
-import nft from'../assets/Aqua.png'
-import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
-import mint from "../../src/mintAbi.json"
-import Metamask from "./Metamask";
-import caine from "../assets/owner/Caine_Web3.jpeg";
-import Header from "./Header";
-import Faq from "./Faq";
 import Footer from "./Footer";
 import LinksFooter from "./LinksFooter";
-const mintAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
-const onboarding = new MetaMaskOnboarding();
+import HeaderMobile from "./HeaderMobile";
 
 const Mint = () => {
 
-    const [accounts, setAccounts] = useState([]);
-
-    async function connectAccounts() {
-        if (window.ethereum) {
-            const accounts = await window.ethereum.request({
-                method: "eth_requestAccounts",
-            });
-            setAccounts(accounts);
-            connectMetaMask();
-        }
-    }
-
-    useEffect(() => {
-        connectAccounts();
-
-    }, []);
 
 //MINTAT COAIE//
 
@@ -41,37 +15,6 @@ const Mint = () => {
     const [text, setText] = useState(["NFT"]);
     const [meta, setMetaMask] = useState("Please connect your wallet");
     const [href, sethref] = useState("https://metamask.io/download/");
-
-    async function handleMint() {
-        if (window.ethereum) {
-            const provider = new ethers.providers.Web3Provider(window.ethereum);
-            const signer = provider.getSigner();
-            const contract = new ethers.Contract(
-                mintAddress,
-                mint.abi,
-                signer
-            );
-            try {
-                const response = await contract.mint(BigNumber.from(mintAmount));
-                console.log("response ", response);
-            } catch (err) {
-                console.log("error: ", err);
-            }
-        }
-    }
-
-    function connectMetaMask() {
-        if (window.ethereum) {
-            setMetaMask("Buy NFT");
-            sethref("javascript:;")
-        }
-        if (!window.ethereum) {
-            setMetaMask("Please connect your wallet");
-            sethref("https://metamask.io/download/")
-        }
-
-    }
-
 
 
 
@@ -117,24 +60,7 @@ const Mint = () => {
 
     function functions1() {
         numberOfMintsIncrease()
-        connectMetaMask()
         showMint();
-    }
-
-    function functions2() {
-        handleMint()
-    }
-
-    function metaMask() {
-        onboarding.startOnboarding();
-    }
-
-    function calculator() {
-
-    }
-
-    function refresh () {
-        window.location.reload();
     }
 
 
@@ -149,37 +75,31 @@ const Mint = () => {
 
     return (
         <div className='mint'>
-            <Header/>
-        <div className="space-up"></div>
-        <div className="column-text"></div>
-            <div className="space-up"></div>
-            <div className="column rainbow " style={{ marginLeft: 'auto', marginRight: 'auto'}}>
-            <div className="card">
-                <img className='contract-pic' src={caine}/>
-                <div className="container">
-                    <Metamask/>
-                    <button className="mint-button-sign" onClick={refresh}>Refresh</button>
-                    {accounts.length && (
+            <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
+            <HeaderMobile/>
+            <div className="mint-content">
+                <section>
                         <div>
-                            <button onClick={functions} className="mint-button-sign">-</button>
-                            <button onClick={functions2} className="mint-button">MINT {mintAmount} {text}</button>
-                            <button className="mint-button-sign" onClick={functions1}>+</button>
-                            <p className="mint-button-sign">TOTAL: {sum} ETH</p>
-                        </div>
-                    )}
-                </div>
-            </div>
-            </div>
-            <div className="space">
+                            <div className="box">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <div className="content">
+                                    <h2>My animated Border </h2>
+                                    <p><a>All our modules are designed to play nicely with responsive of course. At the
+                                        end of the day it comes down to the theme you use - our code doesn't get in your
+                                        way.</a></p>
+                                </div>
 
+                            </div>
+                    </div>
+                </section>
             </div>
-            <div className="space">
-
-            </div>
-
-            <div className="space">
-
-            </div>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet"/>
             <Footer/>
         </div>
     )
