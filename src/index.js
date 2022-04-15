@@ -19,6 +19,7 @@ import Header from "./Components/Header";
 import TermsAndConditions from "./Components/TermsAndConditions";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
 import RoadMap from "./Components/RoadMap";
+import RoadmapNew from "./Components/RoadmapNew";
 import MintSoon from "./Components/MintSoon";
 
 ReactDOM.render(
