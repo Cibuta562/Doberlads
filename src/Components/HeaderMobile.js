@@ -11,15 +11,46 @@ import discordIcon from "../assets/assets_website/discord-black-icon-703937.png"
 
 const HeaderMobile = () => {
 
+        const mql = window.matchMedia('(max-width: 600px)');
+        let mobileView = mql.matches;
+
+        const tql = window.matchMedia('(max-width: 900px)');
+        let tabletView = tql.matches;
+
+        const tlql = window.matchMedia('(max-width: 1180px)');
+        let tabletLandView = tlql.matches;
+
+        const dql = window.matchMedia('(min-width: 1280px)');
+        let desktopView = dql.matches;
+
         const [header, setHeader] = useState("header")
 
-        const listenScrollEvent = (event) => {
-            if (window.scrollY < 2100) {
-                return setHeader("header")
-            } else if (window.scrollY > 2150) {
-                return setHeader("header2")
+
+            const listenScrollEvent = (event) => {
+                if (window.scrollY < 2000 && desktopView) {
+                    return setHeader("header")
+                } else if (window.scrollY > 2050 && desktopView) {
+                    return setHeader("header2")
+                }
+                else if (window.scrollY < 3400 && mobileView) {
+                    return setHeader("header")
+                } else if (window.scrollY > 3450 && mobileView) {
+                    return setHeader("header2")
+                }
+                  else if (window.scrollY < 3600 && tabletView) {
+                    return setHeader("header")
+                } else if (window.scrollY > 3650 && tabletView) {
+                    return setHeader("header2")
+                }
+                else if (window.scrollY < 2250 && tabletLandView) {
+                    return setHeader("header")
+                } else if (window.scrollY > 2300 && tabletLandView) {
+                    return setHeader("header2")
+                }
             }
-        }
+
+
+
 
         useEffect(() => {
             window.addEventListener('scroll', listenScrollEvent);

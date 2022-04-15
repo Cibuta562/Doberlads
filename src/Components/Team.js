@@ -61,7 +61,7 @@ const Team = () => {
                         <div className="boboc">
                             <img src={BobocDobb} className={'boboc'} onClick={moveToLinkedinBoboc}/>
                             <h3 className='descriere-rol'>Web Dev</h3>
-                            <h3 className='descriere'>Always peaceful</h3>
+                            <h3 className='descriere'>Always energetic</h3>
                             <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinBoboc}/>
                         </div>
                     </div>

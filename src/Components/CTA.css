@@ -195,6 +195,76 @@
     box-shadow: 3px 3px 0px 2.5px lightblue;
 }
 
+@media (max-width: 1180px) {
+
+    .card1{
+        width: 300px;
+        height: 400px;
+    }
+
+    .descriere{
+        align-items: center;
+        font-family: Fredoka;
+        background-color: transparent;
+        text-align: center;
+        margin-top: -5px;
+        font-size: 18px;
+        border: none;
+    }
+
+    .logo{
+        height: 40px;
+        width: 40px;
+        position: center;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: aliceblue;
+        border-radius: 11px 11px 11px 11px;
+        box-shadow: 3px 3px 0px 2.5px lightblue;
+        margin-top: 5px;
+    }
+
+    .col-margin{
+        margin-right: 0px;
+    }
+
+    .card-call{
+        width: 280px;
+        height: 280px;
+        margin: 50px;
+    }
+
+    .card-call1 {
+        width: 280px;
+        height: 280px;
+        margin: 50px;
+    }
+
+    .img-call {
+        width: 180px;
+        height: 130px;
+    }
+
+    .names-call{
+        font-size: 20px;
+    }
+
+    .names-call-p{
+        font-size: 16px;
+    }
+
+    .call-to-action {
+        margin-left: 0px;
+    }
+
+    .hr3{
+        margin-left: 0;
+    }
+
+}
+
+
+
 
 @media (max-width: 648px) {
 
