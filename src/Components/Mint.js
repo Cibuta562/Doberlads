@@ -4,6 +4,7 @@ import { useEffect, useState} from "react";
 import Footer from "./Footer";
 import LinksFooter from "./LinksFooter";
 import HeaderMobile from "./HeaderMobile";
+import nftBg from "../assets/mint_pic-removebg-preview.png";
 
 const Mint = () => {
 
@@ -11,8 +12,8 @@ const Mint = () => {
 //MINTAT COAIE//
 
     const [mintAmount, setMintAmount] = useState(1);
-    const [sum, setSum] = useState(0.123);
-    const [text, setText] = useState(["NFT"]);
+    const [sum, setSum] = useState(2);
+    const [text, setText] = useState([" DOBERLAD"]);
     const [meta, setMetaMask] = useState("Please connect your wallet");
     const [href, sethref] = useState("https://metamask.io/download/");
 
@@ -20,29 +21,29 @@ const Mint = () => {
 
     function numberOfMintsDecrease() {
 
-        if (mintAmount <= 2) {
-            setText("NFT");
+        if (mintAmount === 2) {
+            setText("DOBERLAD");
         }
         if(mintAmount <= 1){
             setMintAmount(1);
         }
         if (mintAmount > 1) {
             setMintAmount(mintAmount - 1)
-            setSum(sum-0.123);
+            setSum(sum-2);
         }
 
     }
 
     function numberOfMintsIncrease() {
 
-        if (mintAmount >= 1 && mintAmount <= 10) {
-            setText("NFTS");
+        if (mintAmount === 1) {
+            setText("DOBERLADS");
         }
-        if (mintAmount >= 10) {
-            setMintAmount(10);
+        if (mintAmount >= 2) {
+            setMintAmount(2);
         } else {
             setMintAmount(mintAmount + 1)
-            setSum(sum+0.123);
+            setSum(sum+2);
         }
     }
 
@@ -88,11 +89,27 @@ const Mint = () => {
                                 <span></span>
                             </div>
                             <div className="box-mint-text">
-                                <div className="content-mint">
-                                    <h2 style={{color: "aliceblue"}}>My animated Border </h2>
-                                    <p><a>All our modules are designed to play nicely with responsive of course. At the
-                                        end of the day it comes down to the theme you use - our code doesn't get in your
-                                        way.</a></p>
+                                <div className="content-mint" style={{alignContent: "center"}}>
+                                    <center>
+                                        <h2>Chose how many NFTS you want to mint</h2>
+                                        <div>
+                                            <button className='mintButton1-mint-sign' onClick={numberOfMintsDecrease}>
+                                                -
+                                            </button>
+                                            <span className="mintButton1-mint-amount" style={{marginRight: "8px", marginLeft: "8px"}}>
+                                                {mintAmount} {text}
+                                            </span>
+                                            <button className='mintButton1-mint-sign' onClick={numberOfMintsIncrease}>
+                                                +
+                                            </button>
+                                        </div>
+                                        <div className="mintButton1-mint-no-hover">
+                                            {sum} SOL
+                                        </div>
+                                    <button className='mintButton1-mint'>
+                                        MINT
+                                    </button>
+                                    </center>
                                 </div>
                             </div>
                     </div>

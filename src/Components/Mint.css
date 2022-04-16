@@ -8,10 +8,14 @@
 }
 
 .mint-content{
-    height: 760px;
+    height: 1000px;
     position: relative;
     width: 100%;
     background-color: white;
+}
+
+.background-mint{
+    background-image: url("../assets/mint_pic-removebg-preview.png");
 }
 
 .container{  padding-top: 20px;
@@ -19,31 +23,39 @@
 
 
 
-.content-mint h2{ font-size:19px;}
+.content-mint h2{ font-size:28px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
 
 .box-mint{
+    background-image: url("../assets/mint_pic-removebg-preview.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%, -30%);
-    width: 300px;
-    height: 300px;
-    background: #111845a6;
+    transform: translate(-50%, -10%);
+    width: 400px;
+    height: 400px;
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 10px 20px rgb(23, 32, 90);
     border: 2px solid #2a3cad;
     color: white;
     padding: 20px;
+    align-content: center;
 }
 
 .box-mint-text{
     position: absolute;
-    top: 78%;
+    top: 95%;
     left: 50%;
-    transform: translate(-50%, -78%);
-    width: 300px;
-    height: 200px;
+    transform: translate(-50%, -95%);
+    width: 400px;
+    height: 400px;
     background: #111845a6;
     box-sizing: border-box;
     overflow: hidden;
@@ -82,9 +94,105 @@
     bottom:15px;
     padding:20px;
     text-align:center;
+    align-items: center;
+    align-content: center;
     color: aliceblue;
 
 }
+
+.mintButton1-mint {
+    transition: 0.45s;
+    margin-top: -10%;
+    border: 4px solid royalblue;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: royalblue;
+    cursor: pointer;
+    font-family: 'Fredoka';
+    /*text-shadow: 1px 1px lightblue;*/
+    max-width: 80em;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    font-size: 24px;
+    align-content: center;
+
+}
+
+.mintButton1-mint-sign {
+    transition: 0.45s;
+    margin-top: -10%;
+    border: 4px solid royalblue;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px 22px;
+    color: royalblue;
+    cursor: pointer;
+    font-family: 'Fredoka';
+    /*text-shadow: 1px 1px lightblue;*/
+    max-width: 80em;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    font-size: 24px;
+    align-content: center;
+
+}
+
+.mintButton1-mint-amount {
+    transition: 0.45s;
+    margin-top: -10%;
+    border: 4px solid royalblue;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 12.5px 20px;
+    color: royalblue;
+    cursor: pointer;
+    font-family: 'Fredoka';
+    /*text-shadow: 1px 1px lightblue;*/
+    max-width: 80em;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    font-size: 24px;
+    align-content: center;
+
+}
+
+.mintButton1-mint-no-hover {
+    transition: 0.45s;
+    margin-top: -10%;
+    border: 4px solid royalblue;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: royalblue;
+    cursor: pointer;
+    font-family: 'Fredoka';
+    /*text-shadow: 1px 1px lightblue;*/
+    max-width: 80em;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    font-size: 24px;
+    align-content: center;
+
+}
+
+.mintButton1-mint:hover{
+    /*text-shadow: 1px 1px lightgrey;*/
+    background-color: royalblue;
+    color: rgba(255, 255, 255, 0.8);
+    border: 4px solid rgba(255, 255, 255, 0.8);
+}
+
+.mintButton1-mint-sign:hover{
+    /*text-shadow: 1px 1px lightgrey;*/
+    background-color: royalblue;
+    color: rgba(255, 255, 255, 0.8);
+    border: 4px solid rgba(255, 255, 255, 0.8);
+}
+
+
+
+
 
 .box-mint span{
     position: absolute;
