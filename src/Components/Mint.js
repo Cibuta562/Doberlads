@@ -79,13 +79,13 @@ const Mint = () => {
             <HeaderMobile/>
             <div className="mint-content">
                 <section>
-                        <div>
-                            <div className="box">
+                        <div className="background-img">
+                            <div className="box-mint">
                                 <span></span>
                                 <span></span>
                                 <span></span>
                                 <span></span>
-                                <div className="content">
+                                <div className="content-mint">
                                     <h2>My animated Border </h2>
                                     <p><a>All our modules are designed to play nicely with responsive of course. At the
                                         end of the day it comes down to the theme you use - our code doesn't get in your
