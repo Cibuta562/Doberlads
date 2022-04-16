@@ -11,7 +11,7 @@
     height: 760px;
     position: relative;
     width: 100%;
-    background-color: #1f1f1f;
+    background-color: white;
 }
 
 .container{  padding-top: 20px;
@@ -23,9 +23,9 @@
 
 .box-mint{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
     width: 300px;
     height: 300px;
     background: #111845a6;
@@ -37,7 +37,24 @@
     padding: 20px;
 }
 
-.box:before{
+.box-mint-text{
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -78%);
+    width: 300px;
+    height: 200px;
+    background: #111845a6;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgb(23, 32, 90);
+    border: 2px solid #2a3cad;
+    color: white;
+    padding: 20px;
+}
+
+
+.box-mint:before{
     content: '';
     position:absolute;
     top:0;
@@ -49,7 +66,7 @@
     pointer-events: none;
 }
 
-.box:hover:before{
+.box-mint:hover:before{
     left:-50%;
     transform: skewX(-5deg);
 }
@@ -57,7 +74,7 @@
 
 
 
-.box .content{
+.box-mint .content-mint{
     position:absolute;
     top:15px;
     left:15px;
@@ -69,7 +86,7 @@
 
 }
 
-.box span{
+.box-mint span{
     position: absolute;
     top: 0;
     left: 0;
@@ -80,27 +97,27 @@
 
 }
 
-.box span:nth-child(1)
+.box-mint span:nth-child(1)
 {
     transform:rotate(0deg);
 }
 
-.box span:nth-child(2)
+.box-mint span:nth-child(2)
 {
     transform:rotate(90deg);
 }
 
-.box span:nth-child(3)
+.box-mint span:nth-child(3)
 {
     transform:rotate(180deg);
 }
 
-.box span:nth-child(4)
+.box-mint span:nth-child(4)
 {
     transform:rotate(270deg);
 }
 
-.box span:before
+.box-mint span:before
 {
     content: '';
     position: absolute;

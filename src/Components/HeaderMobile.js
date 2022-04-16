@@ -4,7 +4,7 @@ import { ReactComponent as MenuIcon } from "../assets/owner/menu.svg";
 import { ReactComponent as Logo } from "../assets/owner/menu.svg";
 import "./HeaderMobile.css";
 import {Link} from "react-router-dom";
-import dobbsLogo from "../assets/llogo.PNG";
+import dobbsLogo from "../assets/llogo.png";
 import instagramIcon from "../assets/assets_website/5ecec78673e4440004f09e77.png";
 import twitterIcon from "../assets/assets_website/pngwing.com.png";
 import discordIcon from "../assets/assets_website/discord-black-icon-703937.png";
@@ -27,14 +27,14 @@ const HeaderMobile = () => {
 
 
             const listenScrollEvent = (event) => {
-                if (window.scrollY < 1500 && desktopView) {
+                if (window.scrollY < 2100 && desktopView) {
                     return setHeader("header")
-                } else if (window.scrollY > 1650 && desktopView) {
+                } else if (window.scrollY > 2150 && desktopView) {
                     return setHeader("header2")
                 }
-                else if (window.scrollY < 3800 && mobileView) {
+                else if (window.scrollY < 3400 && mobileView) {
                     return setHeader("header")
-                } else if (window.scrollY > 3950 && mobileView) {
+                } else if (window.scrollY > 3450 && mobileView) {
                     return setHeader("header2")
                 }
                   else if (window.scrollY < 3600 && tabletView) {

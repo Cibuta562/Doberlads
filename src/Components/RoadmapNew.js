@@ -24,7 +24,7 @@ const RoadmapNew = () => {
                     <h2>QUARTER 1</h2>
                     <div className="container_road">
                         <div  className="box_road">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <p className="p-road-new">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         </div>
                     </div>
