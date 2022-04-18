@@ -8,7 +8,7 @@ import "animate.css/animate.min.css";
 import Faq from "./Components/Faq"
 import HeaderMobile from "./Components/HeaderMobile";
 import About from "./Components/About"
-import React, { useEffect, useState} from "react";
+import React, { useEffect, useState, Component} from "react";
 import FaqJr from "./Components/FaqJr";
 import Timer from "./Components/Timer";
 import AbtTeam from './Components/AbtTeam'
@@ -22,6 +22,7 @@ import ReactGA from 'react-ga';
 import NewFaqAcc from "./Components/NewFaqAcc";
 import CTA from "./Components/CTA";
 import Transition from "./Components/Transition";
+import Page from 'react-page-loading'
 ReactGA.initialize('UA-223827648-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -30,21 +31,29 @@ function App() {
 
 
 
+
+
     return (
         <div className='app'>
+            <Page loader={"spin"} color={"red"} size={6}>
                 <HeaderMobile/>
+
             <ScrollAnimate path={'bottom'}>
                 <Trailer/>
             </ScrollAnimate>
+
             <ScrollAnimate path={'bottom'}>
                         <About/>
             </ScrollAnimate>
+
             <ScrollAnimate path={'bottom'}>
                 <Team/>
             </ScrollAnimate>
+
             <ScrollAnimate path={'bottom'}>
                 <Transition/>
             </ScrollAnimate>
+
             <ScrollAnimate path={'bottom'}>
                 <CTA/>
             </ScrollAnimate>
@@ -53,17 +62,19 @@ function App() {
                                 <NewFaqAcc/>
             </ScrollAnimate>
 
-                                <FaqJr/>
-                                    <CookieConsent debug={false} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px", borderRadius: "10px"}}
-                                        style={{background: "#1e1e1e", fontFamily: "Fredoka"}} contentStyle={{marginLeft: "13%"}}>
-                                        Our website uses cookies to improve your experience 🍪
-                                    </CookieConsent>
-                                        <Footer />
+
+            <FaqJr/>
+            <CookieConsent debug={false} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px", borderRadius: "10px"}}
+                           style={{background: "#1e1e1e", fontFamily: "Fredoka"}} contentStyle={{marginLeft: "13%"}}>
+                           Our website uses cookies to improve your experience 🍪
+            </CookieConsent>
+            <Footer />
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet"/>
 
+            </Page>
 
         </div>
     )
