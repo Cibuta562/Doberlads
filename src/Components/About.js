@@ -24,8 +24,14 @@ const About = () => {
                         <h2 style={{marginBottom: "20px"}}></h2>
                         <div className='non-hoverAbout'>
                        <p style={{textAlign: "center"}} >
+                           A parallel universe where Dobermans control the world and live by the same means as humans.
                         </p>
+                            <br/>
+                            <br/>
                             <p style={{textAlign: "center"}}>
+                                We live in a hectic and fast-paced world where everything changes really quickly.
+                                Procrastination is a really big problem within the new generations. We want to battle
+                                this problem and come up with fun solutions that will bring benefits to our community.
                                </p>
                         </div>
                 </div>

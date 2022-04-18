@@ -39,7 +39,10 @@ const Team = () => {
     return (
 
         <div className='container'>
-
+            <div className="teamText">
+                <h2 className='teamHeader'>Who are we?</h2>
+                <p className='teamParagraph'>We are a team of 6 young lads that are ready to bring value to the NFT space and try their best to make the world a better place </p>
+            </div>
             <div className="card1">
                 <div className="icon" style={{marginTop:"10px"}}>
                     <div className="continut">

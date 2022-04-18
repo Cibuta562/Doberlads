@@ -12,6 +12,7 @@
 }
 
 .stories p{
+    font-size: 30px;
     font-family: Fredoka;
 }
 
@@ -25,7 +26,7 @@
 .story2 p{
     display: flex;
     align-items: center;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
 }
 

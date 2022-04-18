@@ -5,6 +5,20 @@
      margin-bottom: 5%;
      justify-content: center;
  }
+.teamParagraph{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: Fredoka;
+    margin-bottom: 10%;
+}
+
+ .teamHeader{
+     font-size: 50px;
+     color: aliceblue;
+     text-shadow: 1px 1px lightblue;
+     font-family: Righteous;
+     margin-bottom: 10%;
+ }
 
   .container {
       height: fit-content;

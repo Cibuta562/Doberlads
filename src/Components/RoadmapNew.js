@@ -22,58 +22,105 @@ const RoadmapNew = () => {
             <div className='roadmap_section'>
                 <div className="quarter1">
                     <h2>QUARTER 1</h2>
+                    <div className="verticalLine1">
+
+                    </div>
                     <div className="container_road">
                         <div  className="box_road">
-                            <p className="p-road-new">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p className='p-road-new'>'Getting together and starting to know each other because the chemestry of a team is their most important asset. </p>
+                        </div>
+
+                        <div className="Done">
+                            <h2>DONE</h2>
                         </div>
                     </div>
 
                     <div className="container_road">
                         <div className="box_road1">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>Making a plan in order to implement the ideas that were the basis of Doberlads: </p>
+                            <p> -  A world ruled by Dobermans.</p>
+                            <p> - A way to battle procrastination</p>
+                        </div>
+                        <div className="Done1">
+                            <h2>DONE</h2>
                         </div>
                     </div>
 
                     <div className="container_road">
                         <div className="box_road">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>Starting to implement the plan in order to build a strong community and deliver a quality product. </p>
+                        </div>
+                        <div className="Done">
+                            <h2>DONE</h2>
                         </div>
                     </div>
                 </div>
 
                 <div className="quarter2">
                     <h2>QUARTER 2</h2>
+                    <div className="verticalLine2">
+
+                    </div>
                     <div className="container_road">
                         <div className="box_road1">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>Starting events on discord such as movie nights, rap battles and esports tournaments in order to bond the community and also give
+                                prizes such as Whitelist spots and much more. </p>
+                        </div>
+                        <div className="Done1">
+                            <h2>DONE</h2>
                         </div>
                     </div>
 
                     <div className="container_road">
                         <div className="box_road">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>As our main goal is to embrace anti-procrastination, we will have weekly meetings on discord about the ways of beeing much more productive
+                                and to make the most of our time. </p>
+                        </div>
+                        <div className="in_Progress">
+                            <h2>IN PROGRESS</h2>
                         </div>
                     </div>
 
                     <div className="container_road">
                         <div className="box_road1">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>The mint will take place at the and of Q2. We are working really hard to make the minting experience like nothing else that has
+                                already been done before, thus making the holders feel special. </p>
+                        </div>
+                        <div className="in_Progress1">
+                            <h2>IN PROGRESS</h2>
                         </div>
                     </div>
                 </div>
 
                 <div className="quarter3">
                     <h2>QUARTER 3</h2>
+                    <div className="verticalLine3">
+
+                    </div>
                     <div className="container_road">
                         <div className="box_road">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>We will release the core of our project, our app, between the middle and the end of Q3. </p>
+                        </div>
+                        <div className="in_Progress">
+                            <h2>IN PROGRESS</h2>
+                        </div>
+                    </div>
+
+                    <div className="container_road">
+                        <div className="box_road1">
+                            <p>With the app, we will also release our token, which the holders can acquire by completing anti-procrastinating tasks. </p>
+                        </div>
+                        <div className="in_Progress1">
+                            <h2>IN PROGRESS</h2>
+                        </div>
+                    </div>
+
+                    <div className="container_road">
+                        <div className="box_road">
+                            <p>By having the Doberlads take over the world, as every leader knows, we can't divulge all the secrets, so stay tuned for more. </p>
+                        </div>
+                        <div className="in_Progress">
+                            <h2>IN PROGRESS</h2>
                         </div>
                     </div>
                 </div>
