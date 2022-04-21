@@ -55,10 +55,16 @@
     width: 350px;
     height: 400px;
     border-radius: 50px;
+    position: relative;
 }
 
 .p-road-new{
     background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    padding-right: 30px;
+    transform: translate(0,-50%);
+    margin: 0;
 }
 
 .box_road1{
@@ -74,6 +80,7 @@
     width: 350px;
     height: 400px;
     border-radius: 50px;
+    position: relative;
 }
 
 .quarter1{

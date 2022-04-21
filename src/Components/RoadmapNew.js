@@ -48,7 +48,7 @@ const RoadmapNew = () => {
 
                     <div className="container_road">
                         <div className="box_road">
-                            <p>Starting to implement the plan in order to build a strong community and deliver a quality product. </p>
+                            <p className='p-road-new'>Starting to implement the plan in order to build a strong community and deliver a quality product. </p>
                         </div>
                         <div className="Done">
                             <h2>DONE</h2>
@@ -63,7 +63,7 @@ const RoadmapNew = () => {
                     </div>
                     <div className="container_road">
                         <div className="box_road1">
-                            <p>Starting events on discord such as movie nights, rap battles and esports tournaments in order to bond the community and also give
+                            <p >Starting events on discord such as movie nights, rap battles and esports tournaments in order to bond the community and also give
                                 prizes such as Whitelist spots and much more. </p>
                         </div>
                         <div className="Done1">
@@ -73,7 +73,7 @@ const RoadmapNew = () => {
 
                     <div className="container_road">
                         <div className="box_road">
-                            <p>As our main goal is to embrace anti-procrastination, we will have weekly meetings on discord about the ways of beeing much more productive
+                            <p className='p-road-new'>As our main goal is to embrace anti-procrastination, we will have weekly meetings on discord about the ways of beeing much more productive
                                 and to make the most of our time. </p>
                         </div>
                         <div className="in_Progress">
@@ -83,7 +83,7 @@ const RoadmapNew = () => {
 
                     <div className="container_road">
                         <div className="box_road1">
-                            <p>The mint will take place at the and of Q2. We are working really hard to make the minting experience like nothing else that has
+                            <p >The mint will take place at the and of Q2. We are working really hard to make the minting experience like nothing else that has
                                 already been done before, thus making the holders feel special. </p>
                         </div>
                         <div className="in_Progress1">
@@ -99,7 +99,7 @@ const RoadmapNew = () => {
                     </div>
                     <div className="container_road">
                         <div className="box_road">
-                            <p>We will release the core of our project, our app, between the middle and the end of Q3. </p>
+                            <p className='p-road-new'>We will release the core of our project, our app, between the middle and the end of Q3. </p>
                         </div>
                         <div className="in_Progress">
                             <h2>IN PROGRESS</h2>
@@ -108,7 +108,7 @@ const RoadmapNew = () => {
 
                     <div className="container_road">
                         <div className="box_road1">
-                            <p>With the app, we will also release our token, which the holders can acquire by completing anti-procrastinating tasks. </p>
+                            <p >With the app, we will also release our token, which the holders can acquire by completing anti-procrastinating tasks. </p>
                         </div>
                         <div className="in_Progress1">
                             <h2>IN PROGRESS</h2>
@@ -117,7 +117,7 @@ const RoadmapNew = () => {
 
                     <div className="container_road">
                         <div className="box_road">
-                            <p>By having the Doberlads take over the world, as every leader knows, we can't divulge all the secrets, so stay tuned for more. </p>
+                            <p className='p-road-new'>By having the Doberlads take over the world, as every leader knows, we can't divulge all the secrets, so stay tuned for more. </p>
                         </div>
                         <div className="in_Progress">
                             <h2>IN PROGRESS</h2>

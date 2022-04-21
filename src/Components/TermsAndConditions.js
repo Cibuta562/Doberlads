@@ -1,6 +1,5 @@
 import React from 'react'
 import './TermsAndConditions.css'
-import roadmap from "../assets/owner/raodmap.png"
 import bone from'../assets/bone-removebg-preview.png'
 import nft from'../assets/Aqua.png'
 import { ethers, BigNumber } from "ethers";
