@@ -60,11 +60,6 @@ body {
 .no-decorations{
     text-decoration: none;
     color: aliceblue;
-    padding: 0 60px;
-    clear: both;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
 }
 
 

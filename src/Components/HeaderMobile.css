@@ -31,9 +31,9 @@
     justify-content: center;
 }
 .doberLogo {
-    height: 120px;
-    width: 120px;
-    top: 0px;
+    height: 80px;
+    width: 80px;
+    top: 10px;
     position: absolute;
 }
 .nav-options {
@@ -127,9 +127,9 @@
     }
 
     .doberLogo {
-        height: 100px;
-        width: 100px;
-        top: +3px;
+        height: 80px;
+        width: 80px;
+        top: +10px;
         position: absolute;
     }
 
