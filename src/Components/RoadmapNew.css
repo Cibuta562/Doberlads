@@ -122,27 +122,16 @@
 
 @media (max-width: 648px) {
     .box_road1{
-        margin-left: 3.5%;
+        margin-left: -10.5%;
         align-items: center;
-        right: 10%;
+        left: 10%;
     }
 
     .box_road{
-        margin-left: 3.5%;
+        margin-left: 15.5%;
         align-items: center;
         right: 10%;
     }
-}
-
-@media (max-width: 1180px){
-    .box_road{
-        margin-left: 27.5%;
-    }
-
-    .box_road1{
-        margin-left: 27.5%;
-    }
-
     .verticalLine1{
         visibility: hidden;
     }
@@ -169,5 +158,48 @@
 
     .in_Progress{
         visibility: hidden;
+    }
+}
+
+@media (min-width: 650px){
+    @media (max-width: 1180px) {
+        .box_road1{
+            margin-left: 37.5%;
+            align-items: center;
+            right: 10%;
+        }
+
+        .box_road{
+            margin-left: 37.5%;
+            align-items: center;
+            right: 10%;
+        }
+        .verticalLine1{
+            visibility: hidden;
+        }
+
+        .verticalLine2{
+            visibility: hidden;
+        }
+
+        .verticalLine3{
+            visibility: hidden;
+        }
+
+        .Done1{
+            visibility: hidden;
+        }
+
+        .Done{
+            visibility: hidden;
+        }
+
+        .in_Progress1{
+            visibility: hidden;
+        }
+
+        .in_Progress{
+            visibility: hidden;
+        }
     }
 }
