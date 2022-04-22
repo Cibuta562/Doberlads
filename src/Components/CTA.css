@@ -30,6 +30,7 @@
 
 
 .call-space{
+    cursor: none;
     height: 200px;
     width: 100%;
     position: relative;
@@ -79,6 +80,7 @@
 }
 
 .card-call1{
+    cursor: pointer;
     transition: 0.45s;
     position: absolute;
     width: 350px;
