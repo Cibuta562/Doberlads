@@ -12,6 +12,7 @@
 }
 
 .stories p{
+    font-weight: bold;
     font-size: 30px;
     font-family: Fredoka;
 }
@@ -122,6 +123,10 @@
     .mintButton1{
         padding: 12px 30px;
         font-size: 22px;
+    }
+
+    .stories p{
+        font-size: 23px;
     }
 
     .stories h2{

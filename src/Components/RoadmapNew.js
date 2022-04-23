@@ -39,7 +39,7 @@ const RoadmapNew = () => {
                     </div>
                     <div className="container_road">
                         <div  className="box_road-q1-1">
-                            <p className='p-road-new'>'Getting together and starting to know each other because the chemestry of a team is their most important asset. </p>
+                            <p className='p-road-new'>Getting together and starting to know each other because the chemestry of a team is their most important asset. </p>
                         </div>
                     </div>
 

@@ -6,6 +6,7 @@
      justify-content: center;
  }
 .teamParagraph{
+    font-weight: bold;
     font-size: 30px;
     color: aliceblue;
     font-family: Fredoka;
@@ -313,5 +314,9 @@
         border-radius: 11px 11px 11px 11px;
         box-shadow: 3px 3px 0px 2.5px lightblue;
         margin-top: 5px;
+    }
+
+    .teamParagraph{
+        font-size: 23px;
     }
 }
