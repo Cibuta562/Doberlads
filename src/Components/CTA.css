@@ -30,6 +30,7 @@
 
 
 .call-space{
+    cursor: none;
     height: 200px;
     width: 100%;
     position: relative;
@@ -79,6 +80,7 @@
 }
 
 .card-call1{
+    cursor: pointer;
     transition: 0.45s;
     position: absolute;
     width: 350px;
@@ -120,7 +122,8 @@
 
 .names-call-p{
     color: black;
-    font-family: "Righteous";
+    font-family: Fredoka;
+    font-weight: bold;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: -10px;
