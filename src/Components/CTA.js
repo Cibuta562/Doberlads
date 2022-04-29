@@ -17,7 +17,7 @@ const CTA = () => {
     }
 
     function moveToTwitter(){
-        window.open("https://twitter.com/DoberLads");
+        window.open("https://twitter.com/Dober_Lads");
     }
 
 
