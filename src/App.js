@@ -22,21 +22,40 @@ import ReactGA from 'react-ga';
 import NewFaqAcc from "./Components/NewFaqAcc";
 import CTA from "./Components/CTA";
 import Transition from "./Components/Transition";
+import loading from "../src/assets/assets_website/hypno (1).gif";
 import Page from 'react-page-loading'
+import LoadingScreen from "react-loading-screen";
 ReactGA.initialize('UA-223827648-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 function App() {
 
+    const [isLoding, setIsLoding] = useState(true);
 
 
+    useEffect(() => {
+
+        setTimeout(() => {
+            setIsLoding(false);
+        }, 3000);
+    }, []);
 
 
     return (
         <div className='app'>
-            <Page loader={"spin"} color={"red"} size={6}>
+            {isLoding ? (
+                <LoadingScreen
+                    loading={true}
+                    bgColor="linear-gradient(to bottom, #7388e1,#2344b9, #7388E1FF)"
+                    spinnerColor="#9ee5f8"
+                    textColor="#676767"
+                    //logoSrc={loading}
+                    //text="Loading..."
+                />
+            ) : ( <>
                 <HeaderMobile/>
+
 
             <ScrollAnimate path={'bottom'}>
                 <Trailer/>
@@ -69,12 +88,12 @@ function App() {
                            Our website uses cookies to improve your experience 🍪
             </CookieConsent>
             <Footer />
+            </>  )}
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet"/>
 
-            </Page>
 
         </div>
     )
