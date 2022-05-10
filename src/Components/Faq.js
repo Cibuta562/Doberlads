@@ -1,8 +1,6 @@
 import React from 'react'
 import "./faq.css"
 import {useState} from 'react'
-import ScrollAnimate from "react-scroll-fade-animation";
-import Trailer from "./Trailer";
 
 const Faq = () => {
 

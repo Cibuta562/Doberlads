@@ -4,7 +4,6 @@ import './Mint.scss'
 import React, { useEffect } from 'react';
 import {Link, NavLink} from "react-router-dom";
 import ScrollAnimate from "react-scroll-fade-animation";
-import Trailer from "./Trailer";
 
 const About = () => {
     useEffect(() => {
