@@ -1,13 +1,9 @@
 import React, { useEffect } from 'react';
 import "./CTA.css"
-import {Card, Col, Container, Row} from "react-bootstrap";
-import {Button} from "bootstrap";
-import test_cta from  "../assets/cta_test.jpg" ;
 import call1 from "../assets/owner/call1.png";
 import call2 from "../assets/owner/call2.png";
 import call3 from "../assets/owner/call3.png"
 import {Link} from "react-router-dom";
-import RoadMap from "./RoadMap";
 
 const CTA = () => {
 
