@@ -5,7 +5,6 @@ import Footer from "./Components/Footer";
 import Team from "./Components/Team"
 import Mint from './Components/Mint'
 import "animate.css/animate.min.css";
-import Faq from "./Components/Faq"
 import HeaderMobile from "./Components/HeaderMobile";
 import About from "./Components/About"
 import React, { useEffect, useState, Component} from "react";
@@ -22,8 +21,6 @@ import ReactGA from 'react-ga';
 import NewFaqAcc from "./Components/NewFaqAcc";
 import CTA from "./Components/CTA";
 import Transition from "./Components/Transition";
-import loading from "../src/assets/assets_website/hypno (1).gif";
-import Page from 'react-page-loading'
 import LoadingScreen from "react-loading-screen";
 ReactGA.initialize('UA-223827648-1');
 ReactGA.pageview(window.location.pathname + window.location.search);

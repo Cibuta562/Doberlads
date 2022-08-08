@@ -43,19 +43,7 @@ const Team = () => {
                 <h2 className='teamHeader'>Who are we?</h2>
                 <p className='teamParagraph'>We are a team of 6 young lads that are ready to bring value to the NFT space and try their best to make the world a better place </p>
             </div>
-            <div className="card1">
-                <div className="icon" style={{marginTop:"10px"}}>
-                    <div className="continut">
-                        <h1 className='names'>Bogdan</h1>
-                        <div className="bogdan">
-                            <img src={BogdanDobb} className={'bogdan'} onClick={moveToLinkedinBogdan} />
-                            <h3 className='descriere-rol'>Web Dev</h3>
-                            <h3 className='descriere'>Always bossy</h3>
-                            <img src = {LinkedinLogo} className={'logo'} onClick={moveToLinkedinBogdan}/>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
             <div className="card1">
                 <div className="icon" style={{marginTop:"10px"}}>
